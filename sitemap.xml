@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hoainam-le.github.io/index.html</loc>
-    <lastmod>2025-05-16T15:30:29.927Z</lastmod>
+    <loc>https://hoainam-le.github.io/teaching.html</loc>
+    <lastmod>2025-05-16T16:34:41.776Z</lastmod>
   </url>
   <url>
-    <loc>https://hoainam-le.github.io/about.html</loc>
-    <lastmod>2025-05-16T15:30:29.927Z</lastmod>
+    <loc>https://hoainam-le.github.io/index.html</loc>
+    <lastmod>2025-05-16T22:37:22.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoainam-le.github.io/cv.html</loc>
+    <lastmod>2025-05-16T22:29:32.577Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoainam-le.github.io/academic.html</loc>
+    <lastmod>2025-05-16T22:10:35.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoainam-le.github.io/honors.html</loc>
+    <lastmod>2025-05-16T22:23:17.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoainam-le.github.io/publications.html</loc>
+    <lastmod>2025-05-16T21:22:31.568Z</lastmod>
   </url>
 </urlset>

@@ -1,16 +1,86 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Website",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hihi"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hoai Nam Le",
     "section": "",
-    "text": "About this site"
+    "text": "I am currently a PhD student in the Department of Mathematics and Statistics at Florida Atlantic University.\nMy research interests lie in area of algebraic number theory, number theory and their applications in Cryptography and Coding theory. Specific topics include, but are not limited to:\n\nLattice-based cryptography\n\nAlgebraic number theory\n\n\n\nAdditionally, I have a keen interest in using mathematics, technology, and data to solve real-life problems, especially in Data Science and Data Analytics. I aspire to pursue a career in these fields in the future.\nI also enjoy playing sports, especially soccer, and I love chatting about soccer and science.\n\nContact\n📧 Email:\nnamhoai12to2 [at] gmail [dot] com namle2024 [at] fau [dot] edu\n📍 Address:\nDepartment of Mathematics and Statistics\nFlorida Atlantic University\n777 Glades Rd, Boca Raton, FL 33431, USA"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "CV (updated May 5, 2025)"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nAug 2024 – Present, PhD Student in Mathematics, Florida Atlantic University\nDec 2019 – Dec 2022, Master of Science in Algebra and Number Theory, Ho Chi Minh City University of Science\nThesis: Well-rounded twists of ideal lattices from imaginary quadratic fields\nSupervisor: Assoc. Prof. Ha Tran, Dr. Le Van Luyen\nSep 2015 – Jun 2019, Bachelor of Science in Mathematics Teacher Education, Ho Chi Minh City University of Education\nThesis: Spectrum of a ring\nSupervisor: Assoc. Prof. My Vinh Quang\nAug 2012 – Jun 2015, Class Specialized in Mathematics, Luong The Vinh High School for the Gifted"
+  },
+  {
+    "objectID": "cv.html#employment",
+    "href": "cv.html#employment",
+    "title": "Curriculum Vitae",
+    "section": "💼 Employment",
+    "text": "💼 Employment\n\nAug 2024 – Present, Graduate Teaching Assistant, Florida Atlantic University\nFeb 2024 – Jun 2024, Adjunct Lecturer, Ho Chi Minh City University of Science\nApr 2020 – Oct 2023, Quantitative Researcher, VietQuant"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "🛠 Skills",
+    "text": "🛠 Skills\nPython, Sagemath, PariGP"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "Curriculum Vitae",
+    "section": "🌐 Languages",
+    "text": "🌐 Languages\n\n\nVietnamese\nNative speaker\n\n\nEnglish\nFluent"
+  },
+  {
+    "objectID": "cv.html#references",
+    "href": "cv.html#references",
+    "title": "Curriculum Vitae",
+    "section": "📑 References",
+    "text": "📑 References"
+  },
+  {
+    "objectID": "academic.html",
+    "href": "academic.html",
+    "title": "Academic Activities",
+    "section": "",
+    "text": "Graduate Workshop on Linear Algebra over Finite Fields & Applications\nICERM, Brown University, USA, August 18–29, 2025 (upcoming)\nA CIMPA School on Applied Number Theory\nHo Chi Minh City University of Education, Vietnam, June 3–14, 2024 (Certificate)\nA SEAMS School on Number Theory and Applications\nIndustrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023 (Certificate)\nCIMPA Research School on Group Actions in Arithmetic and Geometry\nGadjah Mada University, Indonesia, February 17–28, 2020 (Certificate)\nWorkshop on Commutative Algebra\nTon Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017"
+  },
+  {
+    "objectID": "academic.html#summer-schools-and-workshops-attended",
+    "href": "academic.html#summer-schools-and-workshops-attended",
+    "title": "Academic Activities",
+    "section": "",
+    "text": "Graduate Workshop on Linear Algebra over Finite Fields & Applications\nICERM, Brown University, USA, August 18–29, 2025 (upcoming)\nA CIMPA School on Applied Number Theory\nHo Chi Minh City University of Education, Vietnam, June 3–14, 2024 (Certificate)\nA SEAMS School on Number Theory and Applications\nIndustrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023 (Certificate)\nCIMPA Research School on Group Actions in Arithmetic and Geometry\nGadjah Mada University, Indonesia, February 17–28, 2020 (Certificate)\nWorkshop on Commutative Algebra\nTon Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017"
+  },
+  {
+    "objectID": "honors.html",
+    "href": "honors.html",
+    "title": "Honors & Awards",
+    "section": "",
+    "text": "2024: Fully Funded Doctoral Fellowship, Florida Atlantic University.\n\n2019: Recognized for academic excellence as one of the top-performing students in the Mathematics Department, Spring Semester, 4th Year, Ho Chi Minh University of Education.\n\n2018: Certificate in Scientific Research, Mathematics Department, Ho Chi Minh University of Education.\n\n2015: Consolation Prize in the High School Mathematics Contest, Dong Nai Province.\n\n2014: 3rd Prize in the Dong Nai High School Mathematical Contest.\n\n2013: 1st Prize in the Dong Nai High School Mathematical Contest.\n\n2011: Xuan Loc District Award for Excellence in Secondary School Mathematics."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Projects\n\n📌 Well-rounded Twists of Lattices in \\(\\mathbb{R}^3\\)\nJuly 2023 – present with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.\n📌 Well-rounded ideals of cubic and quartic fields\nJune 2021 – April 2023 with Dat T. Tran and Ha T. N. Tran.\n📌 On norm Euclidean tri-quadratic fields\nMay 2020 – February 2021 with Amy Feaver, Dat T. Tran, and Ha T. N. Tran.\n📌 Well-rounded twists of quadratic fields\nJanuary 2020 – June 2020 with Dat T. Tran and Ha T. N. Tran.\n\n\n\n\nPublications\n\n📝 Well-Rounded ideal lattices of cyclic cubic and quartic fields, with Dat T. Tran and Ha T. N. Tran, Communications in Mathematics, Vol. 31, Issue 2 (Oct 18, 2023). (arXiv)\n📝 Well-rounded twists of ideal lattices from imaginary quadratic fields, with Dat T. Tran and Ha T. N. Tran, Journal of Algebra and Its Applications, Vol. 21, No. 07, 2250133 (2022). (arXiv)"
   }
 ]

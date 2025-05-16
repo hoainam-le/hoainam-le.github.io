@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hoai Nam Le</title>
+<title>Publications – Hoai Nam Le</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -256,11 +285,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -296,7 +325,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#contact" id="toc-contact" class="nav-link active" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   </ul>
 </nav>
     </div>
@@ -306,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hoai Nam Le</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
@@ -323,31 +353,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="grid">
-<div class="g-col-3">
-<p><img src="images/namle.jpg" alt="Hoai Nam Le" style="width: 100%; max-width: 220px; border-radius: 12px; box-shadow: 2px 2px 8px #bbb; margin-top: 10px;"></p>
-</div>
-<div class="g-col-9">
-<p>I am currently a PhD student in the <a href="https://www.math.fau.edu/">Department of Mathematics and Statistics</a> at <a href="https://www.fau.edu/">Florida Atlantic University</a>.</p>
-<p>My research interests lie in area of algebraic number theory, number theory and their applications in Cryptography and Coding theory. Specific topics include, but are not limited to:</p>
+<section id="projects" class="level3">
+<h3 class="anchored" data-anchor-id="projects">Projects</h3>
 <ul>
-<li>Lattice-based cryptography<br>
-</li>
-<li>Algebraic number theory</li>
+<li><p>📌 <strong>Well-rounded Twists of Lattices in <span class="math inline">\(\mathbb{R}^3\)</span></strong><br>
+<span style="color:gray">July 2023 – present</span> with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.</p></li>
+<li><p>📌 <strong>Well-rounded ideals of cubic and quartic fields</strong><br>
+<span style="color:gray">June 2021 – April 2023</span> with Dat T. Tran and Ha T. N. Tran.</p></li>
+<li><p>📌 <strong>On norm Euclidean tri-quadratic fields</strong><br>
+<span style="color:gray">May 2020 – February 2021</span> with Amy Feaver, Dat T. Tran, and Ha T. N. Tran.</p></li>
+<li><p>📌 <strong>Well-rounded twists of quadratic fields</strong><br>
+<span style="color:gray">January 2020 – June 2020</span> with Dat T. Tran and Ha T. N. Tran.</p></li>
 </ul>
-</div>
-</div>
-<p>Additionally, I have a keen interest in using mathematics, technology, and data to solve real-life problems, especially in Data Science and Data Analytics. I aspire to pursue a career in these fields in the future.</p>
-<p>I also enjoy playing sports, especially soccer, and I love chatting about soccer and science.</p>
-<section id="contact" class="level1">
-<h1>Contact</h1>
-<p>📧 Email:<br>
-<span style="color:gray">namhoai12to2 [at] gmail [dot] com</span><br> <span style="color:gray">namle2024 [at] fau [dot] edu</span></p>
-<p>📍 Address:<br>
-Department of Mathematics and Statistics<br>
-Florida Atlantic University<br>
-777 Glades Rd, Boca Raton, FL 33431, USA</p>
-<p><span style="margin-right: 42px;"> <a href="https://scholar.google.com/citations?user=st_a1x4AAAAJ&amp;hl=en"> <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?logo=google-scholar&amp;logoColor=white" height="32"> </a> </span> <span style="margin-right: 42px;"> <a href="https://www.researchgate.net/profile/Hoai-Nam-Le-3?ev=hdr_xprf"> <img src="https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&amp;logoColor=white" height="32"> </a> </span> <span style="margin-right: 42px;"> <a href="https://www.linkedin.com/in/hoai-nam-le-519b061aa/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&amp;logoColor=white" height="32"> </a> </span> <span style="margin-right: 42px;"> <a href="https://orcid.org/0000-0001-9944-8128"> <img src="https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&amp;logoColor=white" height="32"> </a> </span></p>
+<hr>
+</section>
+<section id="publications" class="level3">
+<h3 class="anchored" data-anchor-id="publications">Publications</h3>
+<ul>
+<li><p>📝 <strong><a href="https://cm.episciences.org/12425">Well-Rounded ideal lattices of cyclic cubic and quartic fields</a></strong>, with Dat T. Tran and Ha T. N. Tran, <em>Communications in Mathematics</em>, Vol. 31, Issue 2 (Oct 18, 2023). <a href="https://arxiv.org/abs/2303.16968">(arXiv)</a></p></li>
+<li><p>📝 <strong><a href="https://www.worldscientific.com/doi/abs/10.1142/S021949882250133X">Well-rounded twists of ideal lattices from imaginary quadratic fields</a></strong>, with Dat T. Tran and Ha T. N. Tran, <em>Journal of Algebra and Its Applications</em>, Vol. 21, No.&nbsp;07, 2250133 (2022). <a href="https://arxiv.org/abs/2210.15049">(arXiv)</a></p></li>
+</ul>
 
 
 </section>
