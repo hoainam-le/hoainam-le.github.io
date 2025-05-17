@@ -1,0 +1,61 @@
+---
+title: "Curriculum Vitae"
+---
+:::{.text-center}
+[View CV](files/CV_NamLe.pdf){.btn .btn-primary style="margin-bottom: 0.5em;"}  
+<span style="color:gray; font-size: 90%;">(updated May 5, 2025)</span>
+:::
+
+
+
+## 🎓 Education
+
+-  Aug 2024 – Present, **PhD Student in Mathematics**, Florida Atlantic University
+
+-  Dec 2019 – Dec 2022, **Master of Science in Algebra and Number Theory**, Ho Chi Minh City University of Science  
+   Thesis: *Well-rounded twists of ideal lattices from imaginary quadratic fields*  
+   Supervisor: Assoc. Prof. Ha Tran, Dr. Le Van Luyen
+
+- Sep 2015 – Jun 2019, **Bachelor of Science in Mathematics Teacher Education**, Ho Chi Minh City University of Education  
+   Thesis: *Spectrum of a ring*  
+   Supervisor: Assoc. Prof. My Vinh Quang
+
+-  Aug 2012 – Jun 2015, **Class Specialized in Mathematics**, Luong The Vinh High School for the Gifted
+
+---
+
+## 💼 Employment
+
+-  Aug 2024 – Present, **Graduate Teaching Assistant**, Florida Atlantic University
+
+-  Feb 2024 – Jun 2024, **Adjunct Lecturer**, Ho Chi Minh City University of Science
+
+-  Apr 2020 – Oct 2023, **Quantitative Researcher**, VietQuant
+
+---
+
+## 🛠 Skills
+
+Python, Sagemath, PariGP
+
+---
+
+## 🌐 Languages
+
+::: {.grid}
+::: {.g-col-6}
+**Vietnamese**  
+Native speaker
+:::
+
+::: {.g-col-6}
+**English**  
+Fluent
+:::
+:::
+
+
+## 📑 References
+
+
+

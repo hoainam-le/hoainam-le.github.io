@@ -1,0 +1,20 @@
+---
+title: "Honors & Awards"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    page-layout: full
+---
+<br>
+
+<!-- ## Awards and Honors -->
+
+- **2024**: Fully Funded Doctoral Fellowship, Florida Atlantic University.  
+- **2019**: Recognized for academic excellence as one of the top-performing students in the Mathematics Department, Spring Semester, 4th Year, Ho Chi Minh University of Education.  
+- **2018**: Certificate in Scientific Research, Mathematics Department, Ho Chi Minh University of Education.  
+- **2015**: Consolation Prize in the High School Mathematics Contest, Dong Nai Province.  
+- **2014**: 3rd Prize in the Dong Nai High School Mathematical Contest.  
+- **2013**: 1st Prize in the Dong Nai High School Mathematical Contest.  
+- **2011**: Xuan Loc District Award for Excellence in Secondary School Mathematics.  

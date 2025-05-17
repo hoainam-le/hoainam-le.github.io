@@ -1,0 +1,32 @@
+---
+title: "Academic Activities"
+---
+
+<br>
+
+## Summer Schools and Workshops Attended
+
+- **[Graduate Workshop on Linear Algebra over Finite Fields & Applications](https://icerm.brown.edu/program/topical_workshop/tw-25-laffa)**  
+  ICERM, Brown University, USA, August 18–29, 2025 _(upcoming)_
+
+- **[Rethinking Number Theory 6 (RNT 6) Workshop](https://sites.google.com/view/rethinkingnumbertheory/workshop-details?authuser=0)**  
+  Online, June 16 - 27, 2025
+
+- **[A CIMPA School on Applied Number Theory](http://www.rnta.eu/HCMC2024/index.html)**  
+  Ho Chi Minh City University of Education, Vietnam, June 3–14, 2024 ([Certificate](https://drive.google.com/file/d/1DfbyjBWKWvZVjy4jg3FkDJbPST9eeiCF/view))
+
+- **[A SEAMS School on Number Theory and Applications](http://www.rnta.eu/HCMC2023/index.html)**  
+  Industrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023 ([Certificate](https://drive.google.com/file/d/1DgzqdkvsmNkewOBgFGHd0XkFoWQBHda6/view?usp=drive_link))
+
+- **[CIMPA Research School on Group Actions in Arithmetic and Geometry](http://www.rnta.eu/Yogyakarta2020/)**  
+  Gadjah Mada University, Indonesia, February 17–28, 2020 ([Certificate](https://drive.google.com/file/d/1DeV1zzLlRbRG1q-RC5Dl7R6M-cQH4F9c/view))
+
+- **Workshop on Commutative Algebra**  
+  Ton Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017
+
+
+<!-- ### Contributed Talks
+- ...
+
+### Invited Talks
+- _(upcoming plans can be listed here, or simply leave a note like "To be updated...")_ -->
