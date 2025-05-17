@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
+    "objectID": "teaching.html#florida-atlantic-university",
+    "href": "teaching.html#florida-atlantic-university",
     "title": "Teaching",
-    "section": "",
-    "text": "Florida Atlantic University\n\n\nTutor\nI am currently a GTA in the Mathematical Department, where I have the opportunity to tutor undergraduate students in various subjects. Teaching helps me deepen my understanding, as it requires clear and careful explanations. It is also one of my passions and was part of my major during my bachelor’s studies.\nCourses I have tutored include:\n\nCollege Algebra (MAC 1105)\nMatrix Theory (MAS 2104)\nPrecalculus Algebra and Trigonometry (MAC 1147)\nMethods of Calculus (MAC 2233)\nIntermediate Algebra (MAT 1103)\nCalculus with Analytic Geometry 1 (MAC 2311)\nCalculus with Analytic Geometry 2 (MAC 2312)\nCalculus with Analytic Geometry 3 (MAC 2313)\n\n\n\nGrader\n\nCalculus with Analytic Geometry 2 (MAC 2312)\n\n\nHo Chi Minh City University of Science\n\nAlgorithmic Number Theory"
+    "section": "Florida Atlantic University",
+    "text": "Florida Atlantic University\n\nTutor\nI am currently a GTA in the Mathematical Department, where I have the opportunity to tutor undergraduate students in various subjects. Teaching helps me deepen my understanding, as it requires clear and careful explanations. It is also one of my passions and was part of my major during my bachelor’s studies.\nCourses I have tutored include:\n\nCollege Algebra (MAC 1105)\nMatrix Theory (MAS 2104)\nPrecalculus Algebra and Trigonometry (MAC 1147)\nMethods of Calculus (MAC 2233)\nIntermediate Algebra (MAT 1103)\nCalculus with Analytic Geometry 1 (MAC 2311)\nCalculus with Analytic Geometry 2 (MAC 2312)\nCalculus with Analytic Geometry 3 (MAC 2313)\n\n\n\nGrader\n\nCalculus with Analytic Geometry 2 (MAC 2312)"
+  },
+  {
+    "objectID": "teaching.html#ho-chi-minh-city-university-of-science",
+    "href": "teaching.html#ho-chi-minh-city-university-of-science",
+    "title": "Teaching",
+    "section": "Ho Chi Minh City University of Science",
+    "text": "Ho Chi Minh City University of Science\n\nAlgorithmic Number Theory"
   },
   {
     "objectID": "index.html",
