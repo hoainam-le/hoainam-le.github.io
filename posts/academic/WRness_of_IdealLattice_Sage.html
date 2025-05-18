@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-05-17">
+<meta name="description" content="Exploring methods to test well-roundedness of ideal lattices with SageMath and Pari/GP.">
 
-<title>Publications – Hoai Nam Le</title>
+<title>Well-Roundedness of Ideal Lattices Using SageMath – Hoai Nam Le</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,7 +104,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -274,7 +276,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Hoai Nam Le</span>
     </a>
   </div>
@@ -285,27 +287,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./academic.html"> 
+    <a class="nav-link" href="../../academic.html"> 
 <span class="menu-text">Academic Activities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./honors.html"> 
+    <a class="nav-link" href="../../honors.html"> 
 <span class="menu-text">Honors &amp; Awards</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -325,8 +327,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#lattices" id="toc-lattices" class="nav-link active" data-scroll-target="#lattices">Lattices</a></li>
+  <li><a href="#ideal-lattices" id="toc-ideal-lattices" class="nav-link" data-scroll-target="#ideal-lattices">Ideal Lattices</a></li>
+  <li><a href="#sagemath" id="toc-sagemath" class="nav-link" data-scroll-target="#sagemath">Sagemath</a></li>
   </ul>
 </nav>
     </div>
@@ -336,14 +339,28 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
-</div>
+<h1 class="title">Well-Roundedness of Ideal Lattices Using SageMath</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Algebraic Number Theory</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Exploring methods to test well-roundedness of ideal lattices with SageMath and Pari/GP.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 17, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -353,27 +370,21 @@ window.Quarto = {
 </header>
 
 
-<p><br></p>
-<section id="projects" class="level3">
-<h3 class="anchored" data-anchor-id="projects">Projects</h3>
-<ul>
-<li><p>📌 <strong>Well-rounded Twists of Lattices in <span class="math inline">\(\mathbb{R}^3\)</span></strong><br>
-<span style="color:gray">July 2023 – present</span> with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.</p></li>
-<li><p>📌 <strong>Well-rounded ideals of cubic and quartic fields</strong><br>
-<span style="color:gray">June 2021 – April 2023</span> with Dat T. Tran and Ha T. N. Tran.</p></li>
-<li><p>📌 <strong>On norm Euclidean tri-quadratic fields</strong><br>
-<span style="color:gray">May 2020 – February 2021</span> with Amy Feaver, Dat T. Tran, and Ha T. N. Tran.</p></li>
-<li><p>📌 <strong>Well-rounded twists of quadratic fields</strong><br>
-<span style="color:gray">January 2020 – June 2020</span> with Dat T. Tran and Ha T. N. Tran.</p></li>
-</ul>
 <hr>
+<p>Let’s recall some important definitions</p>
+<section id="lattices" class="level3">
+<h3 class="anchored" data-anchor-id="lattices">Lattices</h3>
+<p>Let <span class="math inline">\(B=\{e_1,\cdots,e_m\}\)</span> be a set of linear independent vectors in <span class="math inline">\(\mathbb{R}^n\)</span> (<span class="math inline">\(m\le n\)</span>). The set <span class="math display">\[
+\begin{align}
+L = \left\{\sum_{i=1}^m a_ie_i\Bigg| a_i\in \mathbb{Z} \right\}
+\end{align}
+\]</span> is called the <em>lattice</em> of <span class="math inline">\(\mathbb{R}^n\)</span> of rank <span class="math inline">\(m\)</span>. The set <span class="math inline">\(B\)</span> is called the <em>basis</em> of <span class="math inline">\(L\)</span>. Furthermore, we say <span class="math inline">\(L\)</span> is a <em>full rank lattice</em> if <span class="math inline">\(m=n\)</span>.</p>
 </section>
-<section id="publications" class="level3">
-<h3 class="anchored" data-anchor-id="publications">Publications</h3>
-<ul>
-<li><p>📝 <strong><a href="https://cm.episciences.org/12425">Well-Rounded ideal lattices of cyclic cubic and quartic fields</a></strong>, with Dat T. Tran and Ha T. N. Tran, <em>Communications in Mathematics</em>, Vol. 31, Issue 2 (Oct 18, 2023). <a href="https://arxiv.org/abs/2303.16968">(arXiv)</a></p></li>
-<li><p>📝 <strong><a href="https://www.worldscientific.com/doi/abs/10.1142/S021949882250133X">Well-rounded twists of ideal lattices from imaginary quadratic fields</a></strong>, with Dat T. Tran and Ha T. N. Tran, <em>Journal of Algebra and Its Applications</em>, Vol. 21, No.&nbsp;07, 2250133 (2022). <a href="https://arxiv.org/abs/2210.15049">(arXiv)</a></p></li>
-</ul>
+<section id="ideal-lattices" class="level3">
+<h3 class="anchored" data-anchor-id="ideal-lattices">Ideal Lattices</h3>
+</section>
+<section id="sagemath" class="level3">
+<h3 class="anchored" data-anchor-id="sagemath">Sagemath</h3>
 
 
 </section>

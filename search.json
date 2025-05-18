@@ -14,11 +14,60 @@
     "text": "Ho Chi Minh City University of Science\n\nAlgorithmic Number Theory"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hoai Nam Le",
+    "objectID": "posts/life/second.html",
+    "href": "posts/life/second.html",
+    "title": "My se Post",
     "section": "",
-    "text": "I am currently a PhD student in the Department of Mathematics and Statistics at Florida Atlantic University.\nMy research interests lie in the area of number theory, particularly algebraic number theory and its applications in Cryptography and Coding theory. Specific topics include, but are not limited to:\n\nLattice-based cryptography\n\nAlgebraic number theory\n\n\n\nAdditionally, I have a keen interest in using mathematics, technology, and data to solve real-life problems, especially in Data Science and Data Analytics. I aspire to pursue a career in these fields in the future.\nOutside of academics, I enjoy playing sports—especially soccer—and I love discussing both science and the beautiful game.\n\nContact\n📧 Email:\nnamhoai12to2 [at] gmail [dot] com\nnamle2024 [at] fau [dot] edu \n📍 Address:\nDepartment of Mathematics and Statistics\nFlorida Atlantic University\n777 Glades Rd, Boca Raton, FL 33431, USA"
+    "text": "We have \\(x^2=3\\iff x=\\pm 2\\)"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "📝 Blog",
+    "section": "",
+    "text": "Welcome to my personal blog."
+  },
+  {
+    "objectID": "posts/index.html#academic",
+    "href": "posts/index.html#academic",
+    "title": "📝 Blog",
+    "section": "📘 Academic",
+    "text": "📘 Academic\nNotes, reflections, and insights related to mathematics, research, and study strategies."
+  },
+  {
+    "objectID": "posts/index.html#life",
+    "href": "posts/index.html#life",
+    "title": "📝 Blog",
+    "section": "🌱 Life",
+    "text": "🌱 Life\nPersonal thoughts and everyday experiences from my life journey."
+  },
+  {
+    "objectID": "posts/academic/third.html",
+    "href": "posts/academic/third.html",
+    "title": "My third Post",
+    "section": "",
+    "text": "We have \\(x^2=3\\iff x=\\pm 2\\)"
+  },
+  {
+    "objectID": "posts/academic/frou.html",
+    "href": "posts/academic/frou.html",
+    "title": "My a Post",
+    "section": "",
+    "text": "Đây là hình minh họa:\n\n\n\n\nMặt trời lặn\n\n\n\nBạn thấy đẹp không?"
+  },
+  {
+    "objectID": "honors.html",
+    "href": "honors.html",
+    "title": "Honors & Awards",
+    "section": "",
+    "text": "2024: Fully Funded Doctoral Fellowship, Florida Atlantic University.\n\n2019: Recognized for academic excellence as one of the top-performing students in the Mathematics Department, Spring Semester, 4th Year, Ho Chi Minh University of Education.\n\n2018: Certificate in Scientific Research, Mathematics Department, Ho Chi Minh University of Education.\n\n2015: Consolation Prize in the High School Mathematics Contest, Dong Nai Province.\n\n2014: 3rd Prize in the Dong Nai High School Mathematical Contest.\n\n2013: 1st Prize in the Dong Nai High School Mathematical Contest.\n\n2011: Xuan Loc District Award for Excellence in Secondary School Mathematics."
+  },
+  {
+    "objectID": "academic.html#summer-schools-and-workshops-attended",
+    "href": "academic.html#summer-schools-and-workshops-attended",
+    "title": "Academic Activities",
+    "section": "Summer Schools and Workshops Attended",
+    "text": "Summer Schools and Workshops Attended\n\nGraduate Workshop on Linear Algebra over Finite Fields & Applications\nICERM, Brown University, USA, August 18–29, 2025 (upcoming)\nRethinking Number Theory 6 (RNT 6) Workshop\nOnline, June 16 - 27, 2025\nA CIMPA School on Applied Number Theory\nHo Chi Minh City University of Education, Vietnam, June 3–14, 2024 (Certificate)\nA SEAMS School on Number Theory and Applications\nIndustrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023 (Certificate)\nCIMPA Research School on Group Actions in Arithmetic and Geometry\nGadjah Mada University, Indonesia, February 17–28, 2020 (Certificate)\nWorkshop on Commutative Algebra\nTon Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017"
   },
   {
     "objectID": "cv.html",
@@ -63,25 +112,32 @@
     "text": "📑 References"
   },
   {
-    "objectID": "academic.html#summer-schools-and-workshops-attended",
-    "href": "academic.html#summer-schools-and-workshops-attended",
-    "title": "Academic Activities",
-    "section": "Summer Schools and Workshops Attended",
-    "text": "Summer Schools and Workshops Attended\n\nGraduate Workshop on Linear Algebra over Finite Fields & Applications\nICERM, Brown University, USA, August 18–29, 2025 (upcoming)\nRethinking Number Theory 6 (RNT 6) Workshop\nOnline, June 16 - 27, 2025\nA CIMPA School on Applied Number Theory\nHo Chi Minh City University of Education, Vietnam, June 3–14, 2024 (Certificate)\nA SEAMS School on Number Theory and Applications\nIndustrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023 (Certificate)\nCIMPA Research School on Group Actions in Arithmetic and Geometry\nGadjah Mada University, Indonesia, February 17–28, 2020 (Certificate)\nWorkshop on Commutative Algebra\nTon Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hoai Nam Le",
+    "section": "",
+    "text": "I am currently a PhD student in the Department of Mathematics and Statistics at Florida Atlantic University.\nMy research interests lie in the area of number theory, particularly algebraic number theory and its applications in Cryptography and Coding theory. Specific topics include, but are not limited to:\n\nLattice-based cryptography\n\nAlgebraic number theory\n\n\n\nAdditionally, I have a keen interest in using mathematics, technology, and data to solve real-life problems, especially in Data Science and Data Analytics. I aspire to pursue a career in these fields in the future.\nOutside of academics, I enjoy playing sports—especially soccer—and I love discussing both science and the beautiful game.\n\nContact\n📧 Email:\nnamhoai12to2 [at] gmail [dot] com\nnamle2024 [at] fau [dot] edu \n📍 Address:\nDepartment of Mathematics and Statistics\nFlorida Atlantic University\n777 Glades Rd, Boca Raton, FL 33431, USA"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "posts/academic/index.html",
+    "href": "posts/academic/index.html",
+    "title": "Academic Writings",
     "section": "",
-    "text": "Welcome to my blog — a place for personal reflections and curious findings from my academic and everyday experiences.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "Welcome to the Academic section of my blog.\nHere I share notes, reflections, and insights related to mathematics, research, and study strategies.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nMy a Post\n\n\nzzzz\n\n\n\n\n\nMay 25, 2025\n\n\n\n\n\n\n\nMy third Post\n\n\nhmm\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\nWell-Roundedness of Ideal Lattices Using SageMath\n\n\nExploring methods to test well-roundedness of ideal lattices with SageMath and Pari/GP.\n\n\n\n\n\nMay 17, 2025\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "honors.html",
-    "href": "honors.html",
-    "title": "Honors & Awards",
+    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html",
+    "href": "posts/academic/WRness_of_IdealLattice_Sage.html",
+    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
     "section": "",
-    "text": "2024: Fully Funded Doctoral Fellowship, Florida Atlantic University.\n\n2019: Recognized for academic excellence as one of the top-performing students in the Mathematics Department, Spring Semester, 4th Year, Ho Chi Minh University of Education.\n\n2018: Certificate in Scientific Research, Mathematics Department, Ho Chi Minh University of Education.\n\n2015: Consolation Prize in the High School Mathematics Contest, Dong Nai Province.\n\n2014: 3rd Prize in the Dong Nai High School Mathematical Contest.\n\n2013: 1st Prize in the Dong Nai High School Mathematical Contest.\n\n2011: Xuan Loc District Award for Excellence in Secondary School Mathematics."
+    "text": "Let’s recall some important definitions\n\nLattices\nLet \\(B=\\{e_1,\\cdots,e_m\\}\\) be a set of linear independent vectors in \\(\\mathbb{R}^n\\) (\\(m\\le n\\)). The set \\[\n\\begin{align}\nL = \\left\\{\\sum_{i=1}^m a_ie_i\\Bigg| a_i\\in \\mathbb{Z} \\right\\}\n\\end{align}\n\\] is called the lattice of \\(\\mathbb{R}^n\\) of rank \\(m\\). The set \\(B\\) is called the basis of \\(L\\). Furthermore, we say \\(L\\) is a full rank lattice if \\(m=n\\).\n\n\nIdeal Lattices\n\n\nSagemath"
+  },
+  {
+    "objectID": "posts/life/index.html",
+    "href": "posts/life/index.html",
+    "title": "Daily Life",
+    "section": "",
+    "text": "Welcome to the Daily Life section of my blog.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nMy se Post\n\n\nhmm\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
