@@ -31,12 +31,12 @@ website:
         href: cv.qmd
       - text: "Useful Links"
         href: useful_links.qmd
-      - text: "Blog"
-        # menu:
-        #   - text: "Academic"
-        #     href: posts/academic/index.qmd
-        #   - text: "Life"
-        #     href: posts/life/index.qmd
+      # - text: "Blog"
+      #   menu:
+      #     - text: "Academic"
+      #       href: posts/academic/index.qmd
+      #     - text: "Life"
+      #       href: posts/life/index.qmd
     # right:
     #   - icon: github
     #     href: https://github.com/hoainam-le

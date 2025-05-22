@@ -1,44 +1,41 @@
 {
   "academic.qmd": {
-    "academic.html": "cee850d9"
+    "academic.html": "60cac1b1"
   },
   "cv.qmd": {
-    "cv.html": "09f9d5bf"
+    "cv.html": "13415390"
   },
   "honors.qmd": {
-    "honors.html": "a8ed85e9"
+    "honors.html": "9f44f8e0"
   },
   "index.qmd": {
-    "index.html": "000565be"
+    "index.html": "b01a4bc2"
   },
   "posts/academic/frou.qmd": {
-    "frou.html": "e89086d0"
+    "frou.html": "fa8f5ac3"
   },
   "posts/academic/index.qmd": {
-    "index.html": "3c9a6234"
+    "index.html": "295b85e5"
   },
   "posts/academic/third.qmd": {
-    "third.html": "de0ec140"
+    "third.html": "58cf851d"
   },
   "posts/academic/WRness_of_IdealLattice_Sage.qmd": {
-    "WRness_of_IdealLattice_Sage.html": "2aa92df1"
-  },
-  "posts/index.qmd": {
-    "index.html": "50c3f02c"
+    "WRness_of_IdealLattice_Sage.html": "ece7f35a"
   },
   "posts/life/index.qmd": {
-    "index.html": "ec19c99e"
+    "index.html": "0312571d"
   },
   "posts/life/second.qmd": {
-    "second.html": "3b23d988"
+    "second.html": "59f5ee27"
   },
   "publications.qmd": {
-    "publications.html": "f25a6f31"
+    "publications.html": "5ef9269b"
   },
   "teaching.qmd": {
-    "teaching.html": "504bb4f1"
+    "teaching.html": "e96bfacf"
   },
   "useful_links.qmd": {
-    "useful_links.html": "4e9f4e53"
+    "useful_links.html": "8f0f0bbd"
   }
 }
