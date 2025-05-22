@@ -6,4 +6,6 @@ title: "Useful Links"
 
 (@) [Number Theory Web](http://www.numbertheory.org/ntw/web.html)
 (@) [RNT: Rethinking Number Theory](https://sites.google.com/view/rethinkingnumbertheory/home)
-
+(@) [CIMPA](https://www.cimpa.info/en)
+(@) [OpenCourseWare](https://ocw.mit.edu/)
+(@) [Carmin.tv](https://www.carmin.tv/en/)

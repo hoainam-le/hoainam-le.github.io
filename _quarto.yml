@@ -17,7 +17,7 @@ website:
   navbar:
     # logo: images/namle.jpg
     left:
-      - text: "About Me"
+      - text: "About"
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
