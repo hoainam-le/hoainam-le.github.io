@@ -2,10 +2,22 @@ project:
   type: website
 
 website:
+  page-footer: 
+    left: "The only way to do great work is to love what you do. - Steve Jobs" 
+    right: 
+      - icon: github
+        href: https://github.com/hoainam-le
+      - icon: twitter
+        href: https://x.com/NamLeHoai97
+      - icon: facebook
+        href: https://www.facebook.com/namhltv/
+  
   title: "Hoai Nam Le"
+
   navbar:
+    # logo: images/namle.jpg
     left:
-      - text: "About"
+      - text: "About Me"
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
@@ -16,10 +28,22 @@ website:
       - text: "Honors & Awards"
         href: honors.qmd
       - text: "CV"
-        href: 'cv.qmd'
-
-
-
+        href: cv.qmd
+      - text: "Useful Links"
+        href: useful_links.qmd
+      - text: "Blog"
+        # menu:
+        #   - text: "Academic"
+        #     href: posts/academic/index.qmd
+        #   - text: "Life"
+        #     href: posts/life/index.qmd
+    # right:
+    #   - icon: github
+    #     href: https://github.com/hoainam-le
+    #   - icon: twitter
+    #     href: https://x.com/NamLeHoai97
+    #   - icon: facebook
+    #     href: https://www.facebook.com/namhltv/
 
 format:
   html:
@@ -28,6 +52,4 @@ format:
       dark: darkly
     css: styles.css
     toc: true
-
-
-
+    toc-location: right

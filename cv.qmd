@@ -36,7 +36,7 @@ title: "Curriculum Vitae"
 
 ## 🛠 Skills
 
-Python, Sagemath, PariGP
+Python, Sagemath, Pari/GP
 
 ---
 

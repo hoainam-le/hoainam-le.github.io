@@ -1,0 +1,15 @@
+---
+title: "Daily Life"
+listing: 
+  type: default
+  sort: "date desc"
+  categories: true
+  fields: [title, date, description]
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+---
+
+Welcome to the **Daily Life** section of my blog.  
+
+---

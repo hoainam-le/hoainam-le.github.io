@@ -1,0 +1,19 @@
+---
+title: "My a Post"
+date: 2025-05-25
+categories: [Quarto, Personal]
+tags: [website, blog]
+description: "zzzz"
+date-modified: 2025-05-15
+draft: false
+---
+
+
+---
+Đây là hình minh họa:
+
+:::{.text-center}
+![Mặt trời lặn](../../images/namle.jpg){ width=200% }
+:::
+
+Bạn thấy đẹp không?

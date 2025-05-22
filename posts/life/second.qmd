@@ -1,0 +1,11 @@
+---
+title: "My se Post"
+date: 2025-05-20
+categories: [Quarto, Personal]
+tags: [website, blog]
+description: "hmm"
+date-modified: 2025-05-15
+draft: false
+---
+
+We have $x^2=3\iff x=\pm 2$

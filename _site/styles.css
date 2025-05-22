@@ -4,3 +4,14 @@
   display: flex;
   justify-content: center;
 }
+
+
+pre.sourceCode.sage, code.sourceCode.sage {
+  background-color: #2e2e2e;
+  color: #f8f8f2;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+
+

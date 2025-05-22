@@ -6,31 +6,35 @@ title: "Hoai Nam Le"
 
 ::: {.grid}
 ::: {.g-col-3}
-<img src="images/namle.jpg" alt="Hoai Nam Le" style="width: 100%; max-width: 220px; border-radius: 12px; box-shadow: 2px 2px 8px #bbb; margin-top: 10px;">
+
+<img src="images/namle.jpg" alt="Hoai Nam Le" style="width: 100%; max-width: 200px; border-radius: 12px; box-shadow: 2px 2px 8px #bbb; margin-top: 10px;">
+
 :::
 
 ::: {.g-col-9}
 
 I am currently a PhD student in the [Department of Mathematics and Statistics](https://www.math.fau.edu/) at [Florida Atlantic University](https://www.fau.edu/).
 
-My research interests lie in area of number theory, particularly algebraic number theory and its applications in Cryptography and Coding theory. Specific topics include, but are not limited to:
+My research interests lie in the area of number theory, particularly algebraic number theory and its applications in Cryptography and Coding theory. Specific topics include, but are not limited to:
 
 - Lattice-based cryptography  
-- Algebraic number theory
+- Algebraic number theory.
 
 :::
 :::
+
 Additionally, I have a keen interest in using mathematics, technology, and data to solve real-life problems, especially in Data Science and Data Analytics. I aspire to pursue a career in these fields in the future.
 
-Outside of academics, I enjoy playing sports—especially soccer—and I love discussing both science and the beautiful game.
+Outside of academics, I enjoy playing sports—especially soccer. I also love watching matches and analyzing soccer tactics; it's something I find truly fascinating.
 
 # Contact
-📧 Email:  
-<span style="color:gray">namhoai12to2 [at] gmail [dot] com</span><br>
-<span style="color:gray">namle2024 [at] fau [dot] edu</span>
+📧 **Email**:  
+namhoai12to2 [at] gmail [dot] com  
+namle2024 [at] fau [dot] edu
+<!-- <span style="color:gray">namle2024 [at] fau [dot] edu</span> -->
 
 
-📍 Address:  
+📍 **Address**:   
 Department of Mathematics and Statistics  
 Florida Atlantic University  
 777 Glades Rd, Boca Raton, FL 33431, USA
@@ -45,19 +49,19 @@ Florida Atlantic University
   margin-top: 12px;
 ">
   <a href="https://scholar.google.com/citations?user=st_a1x4AAAAJ&hl=en" target="_blank" style="display: flex; align-items: center; justify-content: center; background-color: #4285F4; padding: 8px;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googlescholar.svg" alt="Google Scholar" style="width: 24px; height: 24px;">
+    <img src="images/googlescholar.svg" alt="Google Scholar" style="width: 24px; height: 24px;">
   </a>
 
   <a href="https://www.researchgate.net/profile/Hoai-Nam-Le-3?ev=hdr_xprf" target="_blank" style="display: flex; align-items: center; justify-content: center; background-color: #00CCBB; padding: 8px;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/researchgate.svg" alt="ResearchGate" style="width: 24px; height: 24px;">
+    <img src="images/researchgate.svg" alt="ResearchGate" style="width: 24px; height: 24px;">
   </a>
 
   <a href="https://www.linkedin.com/in/hoai-nam-le-519b061aa/" target="_blank" style="display: flex; align-items: center; justify-content: center; background-color: #0077B5; padding: 8px;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
+    <img src="images/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
   </a>
 
   <a href="https://orcid.org/0000-0001-9944-8128" target="_blank" style="display: flex; align-items: center; justify-content: center; background-color: #A6CE39; padding: 8px;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/orcid.svg" alt="ORCID" style="width: 24px; height: 24px;">
+    <img src="images/orcid.svg" alt="ORCID" style="width: 24px; height: 24px;">
   </a>
 </div>
 

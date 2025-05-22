@@ -5,21 +5,23 @@ title: "Publications"
 
 ### Projects
 
-- 📌 **Well-rounded Twists of Lattices in $\mathbb{R}^3$**  
+- **Well-rounded Twists of Lattices in $\mathbb{R}^3$**  
   <span style="color:gray">July 2023 – present</span> with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.
 
-- 📌 **Well-rounded ideals of cubic and quartic fields**  
+- **Well-rounded ideals of cubic and quartic fields**  
   <span style="color:gray">June 2021 – April 2023</span> with Dat T. Tran and Ha T. N. Tran.
 
-- 📌 **On norm Euclidean tri-quadratic fields**  
+- **On norm Euclidean tri-quadratic fields**  
   <span style="color:gray">May 2020 – February 2021</span> with Amy Feaver, Dat T. Tran, and Ha T. N. Tran.
 
-- 📌 **Well-rounded twists of quadratic fields**  
+- **Well-rounded twists of quadratic fields**  
   <span style="color:gray">January 2020 – June 2020</span> with Dat T. Tran and Ha T. N. Tran.
 
 ---
 
 ### Publications
+
+- 📝 **Well-rounded twists of the ring of integrers of cyclic cubic fields**, with  Dat T.  Tran, Ha T. N. Tran and David A. Karpuk, in preparation.
 
 - 📝 **[Well-Rounded ideal lattices of cyclic cubic and quartic fields](https://cm.episciences.org/12425)**, with Dat T. Tran and Ha T. N. Tran, _Communications in Mathematics_, Vol. 31, Issue 2 (Oct 18, 2023). [(arXiv)](https://arxiv.org/abs/2303.16968)  
 

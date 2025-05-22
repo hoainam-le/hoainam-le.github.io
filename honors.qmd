@@ -1,11 +1,5 @@
 ---
 title: "Honors & Awards"
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    number-sections: false
-    page-layout: full
 ---
 <br>
 

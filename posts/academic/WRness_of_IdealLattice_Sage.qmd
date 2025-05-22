@@ -1,0 +1,146 @@
+---
+title: "Well-Roundedness of Ideal Lattices Using SageMath"
+categories: [Algebraic Number Theory,Computational Number Theory]
+tags: [SageMath, Pari/GP, Lattices, Computational Number Theory]
+description: "Exploring methods to test well-roundedness of ideal lattices with SageMath and Pari/GP."
+date: 2025-05-15
+date-modified: 2025-05-20
+draft: false
+bibliography: references.bib
+
+# jupyter: sage
+# format:
+#   html:
+#     css: ../../styles.css
+---
+
+---
+In this post, I will show how to check whether an ideal lattice is well-rounded (WR) using SageMath. We will review the necessary mathematical background, the relevant theory, and provide practical SageMath code examples to illustrate the process.
+
+# Preliminary
+
+Most of what I write here is based on [@stewart2001algebraic], which was also the first book on algebraic number theory that I read.
+
+## Lattice
+
+Let $B=\{e_1,\cdots,e_m\}$ be a set of linear independent vectors in $\mathbb{R}^n$ ($m\le n$). The set
+$$
+\begin{align}
+L = \left\{\sum_{i=1}^m a_ie_i\Bigg| a_i\in \mathbb{Z} \right\}
+\end{align}
+$$
+is called the _lattice_ of $\mathbb{R}^n$ of rank $m$. The set $B$ is called the _basis_ of $L$. Furthermore, we say $L$ is a _full rank lattice_ if $m=n$.
+
+The _minimal length_ of $L$ is defined by
+$$
+\lambda_1(L) = \min\{\|x\|^2: x\in L\setminus \{0\}\}
+$$
+where $\|\cdot\|$ denotes the Euclidean norm on $\mathbb{R}^n$. The set of _shortest vectors_ of $L$ is 
+$$S(L):= \{x\in L:\|x\|^2 = \lambda_1(L)\}
+$$ 
+
+A lattice $L$ of dimension $n$ is said to be _well-rounded (WR)_ if the set $S(L)$ contains $n$ linearly independence vectors. 
+
+Furthermore, two lattices $L_1$ and $L_2$ are called _similar_ if there exist an $n\times n$ real orthogonal matrix $O$ and a non real zero constant $\alpha$ so that $L_1 = \alpha O L_2$.
+
+## Number field
+
+Let $K$ be a number field, i.e., a finite extension of $\mathbb{Q}$. Since $\mathbb{Q}$ is perfect, the extension $K/\mathbb{Q}$ is separable. Thus, every number field is a finite separable extension of $\mathbb{Q}$. By the *Primitive Element Theorem*, $K$ is a simple extension, so there exists $\alpha \in K$ such that $K = \mathbb{Q}(\alpha)$. Since $K/\mathbb{Q}$ is finite, $\alpha$ is algebraic over $\mathbb{Q}$. 
+
+Moreover, there exists a non-zero $c \in \mathbb{Z}$ such that $c\alpha = \theta$, where $\theta$ is an algebraic integer. Hence, 
+$$K = \mathbb{Q}(\alpha) = \mathbb{Q}(\theta).
+$$
+
+Let $m_{\theta,\mathbb{Q}}(x)$ be the minimal polynomial of $\theta$ over $\mathbb{Q}$ of degree $n$, and let $\theta_1, \dots, \theta_n$ (with $\theta = \theta_1$) denote its distinct roots in $\mathbb{C}$ (all roots are distinct because of the separability of $K$). Then there are exactly $n$ distinct field embeddings (monomorphisms) $\sigma_i: K \to \mathbb{C}$ $(i = 1, \dots, n)$ such that $\sigma_i(\theta) = \theta_i$.
+
+We observe that $\sigma_i(K) \subseteq \mathbb{R}$ if and only if $\sigma_i(\theta) \in \mathbb{R}$. In this case, $\sigma_i$ is said to be _real_; otherwise, it is called _complex_.
+
+Since complex conjugation $\tau: \mathbb{C} \to \mathbb{C}$ is a field automorphism, the composition
+$$
+\overline{\sigma}_i := \tau \circ \sigma_i: K \to \mathbb{C} \to \mathbb{C}
+$$
+defined by $\overline{\sigma}_i(\theta) = \overline{\sigma_i(\theta)}$, is also a field embedding. Thus, $\overline{\sigma}_i = \sigma_j$ for some $1 \leq j \leq n$.
+
+Moreover, since $\tau(x) = x$ if and only if $x \in \mathbb{R}$ and $\overline{\overline{\sigma}_i} = \sigma_i$, we have that $\sigma_i$ is real if and only if $\sigma_i = \overline{\sigma}_i$. In particular, the complex embeddings always occur in conjugate pairs.
+
+Therefore, if $r_1$ is the number of real embeddings and $2r_2$ is the number of complex embeddings (which come in pairs), then the total number of embeddings is $n = r_1 + 2r_2$. Let's denote 
+$$
+\sigma_1\cdots, \sigma_{r_1},\tau_{1},\overline{\tau}_1,\cdots, \tau_{r_2},\overline{\tau}_{r_2}
+$$
+are all monomorphisms from $K\to \mathbb{C}$.
+
+Furthermore, the direct product $\mathbb{R}^{r_1} \times \mathbb{C}^{r_2}$ is a vector space over $\mathbb{R}$ of dimension $r_1 + 2r_2 = n$ (this is also a ring with componentwise operations i.e., $\mathbb{R}^{r_1} \times \mathbb{C}^{r_2}$ is an $\mathbb R$-algebra). We define a map:
+$$
+\begin{align} 
+\sigma:&\ K\to \mathbb{R}^{r_1}\times \mathbb{C}^{r_2}\\
+&x\mapsto (\sigma_1(x),\cdots,\sigma_{r_1}(x),\tau_1(x),\cdots,\tau_{r_2}(x))
+\end{align}
+$$
+
+This is a $\mathbb Q$-algebra homomorphism, so $\sigma$ is either the zero map or injective. Since $\sigma(1) = (1, \dots, 1) \neq 0$, $\sigma$ must be injective. In other words, this map embeds  $K$ into $\mathbb{R}^{r_1} \times \mathbb{C}^{r_2}$ as a subring.
+
+Now suppose we view $\mathbb{R}^{r_1} \times \mathbb{C}^{r_2}\cong \mathbb R^n$ as a vector space over $\mathbb R$. Since each $\tau_i(x) \in \mathbb{C}$ can be written as $\operatorname{Re}(\tau_i(x)) + i\,\operatorname{Im}(\tau_i(x))$, we can write the map above as
+$$
+\begin{align}
+\sigma:&\ K\to \mathbb{R}^{n}\\
+&x\mapsto (\sigma_1(x),\cdots,\sigma_{r_1}(x),\operatorname{Re}(\tau_1(x)),\operatorname{Im}(\tau_1(x)),\cdots,\operatorname{Re}(\tau_{r_2}(x)),\operatorname{Im}(\tau_{r_2}(x)))
+\end{align}
+$$
+
+Note that this $\sigma$ is an $\mathbb{R}$-vector space homomorphism. The following results still hold even when we view $\sigma$ as an $\mathbb{R}$-vector space homomorphism.
+
+**Theorem:** The image of finite generated subgroup of $(K,+)$ under $\sigma$ is a lattice in $\mathbb{R}^n$. In particular, if $G = \langle\omega_1,\cdots,\omega_m\rangle_{\mathbb{Z}}\subseteq (K,+)$, then $\sigma(G)$ is a lattice with generators $\{\sigma(\omega_1),\cdots,\sigma(\omega_m)\}$.
+
+
+
+
+## Ideal Lattices
+
+Using the above theorem, we have that if $I$ is an fractional ideal of $K$, then $\sigma(I)$ is a full rank lattice of $\mathbb{R}^n$. And if $I$ is an integral ideal of $\mathcal{O}_K$ then $\sigma(I)$ is a sublattice of $\sigma(\mathcal{O}_K)$ of finite index . In particular, this index equals to
+$$
+[ \sigma(\mathcal{O}_K): \sigma(I)] = [\mathcal{O}_K : I] = N(I)
+$$
+where $N(\cdot)$ denotes the norm of the ideal $I$ in $\mathcal{O}_K$.
+
+These $\sigma(I)$ are called _ideal lattices_. Since $\sigma$ is an embedding, we often identify the ideal $I$ with its image $\sigma(I)$ and thus refer to $I$ itself as an ideal lattice.
+
+
+# Sagemath
+
+
+```python
+from sage.all import *
+x = polygen(ZZ, 'x')
+K = NumberField(x**Integer(4) - Integer(420)*x**Integer(2) + Integer(40000), names=('y',)); (y,) = K._first_ngens(1)
+z = y**Integer(5)/Integer(11); z
+R = PolynomialRing(K, names=('y',)); (y,) = R._first_ngens(1)
+f = y**Integer(2) + y + Integer(1)
+L = K.extension(f, names=('a',)); (a,) = L._first_ngens(1); L
+KL = NumberField([x**Integer(4) - Integer(420)*x**Integer(2) + Integer(40000), x**Integer(2) + x + Integer(1)], names=('b',)); (b,) = KL._first_ngens(1); KL
+```
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+data = {'a': np.arange(50),
+        'c': np.random.randint(0, 50, 50),
+        'd': np.random.randn(50)}
+data['b'] = data['a'] + 10 * np.random.randn(50)
+data['d'] = np.abs(data['d']) * 100
+
+plt.scatter('a', 'b', c='c', s='d', data=data)
+plt.xlabel('entry a')
+plt.ylabel('entry b')
+plt.show()
+```
+
+
+<!-- [← Previous post](frou.qmd) | [Next post →](third.qmd) -->
+
+
+
+
+
+
+
+

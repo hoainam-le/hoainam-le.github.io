@@ -1,0 +1,16 @@
+---
+title: "Academic Writings"
+listing: 
+  type: default
+  sort: "date desc"
+  categories: true
+  fields: [title, date, description]
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+---
+
+Welcome to the **Academic** section of my blog.  
+Here I share notes, reflections, and insights related to mathematics, research, academic writing, and study strategies.
+
+---
