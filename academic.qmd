@@ -13,13 +13,13 @@ title: "Academic Activities"
   Online, June 16 - 27, 2025
 
 - **[A CIMPA School on Applied Number Theory](http://www.rnta.eu/HCMC2024/index.html)**  
-  Ho Chi Minh City University of Education, Vietnam, June 3–14, 2024 ([Certificate](https://drive.google.com/file/d/1DfbyjBWKWvZVjy4jg3FkDJbPST9eeiCF/view))
+  Ho Chi Minh City University of Education, Vietnam, June 3–14, 2024 ([Certificate](files/Certificate_cimpa2024.pdf))
 
 - **[A SEAMS School on Number Theory and Applications](http://www.rnta.eu/HCMC2023/index.html)**  
-  Industrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023 ([Certificate](https://drive.google.com/file/d/1DgzqdkvsmNkewOBgFGHd0XkFoWQBHda6/view?usp=drive_link))
+  Industrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023 ([Certificate](files/Certificate_seams2023.pdf))
 
 - **[CIMPA Research School on Group Actions in Arithmetic and Geometry](http://www.rnta.eu/Yogyakarta2020/)**  
-  Gadjah Mada University, Indonesia, February 17–28, 2020 ([Certificate](https://drive.google.com/file/d/1DeV1zzLlRbRG1q-RC5Dl7R6M-cQH4F9c/view))
+  Gadjah Mada University, Indonesia, February 17–28, 2020 ([Certificate](files/Certifies_cimpa2020.pdf))
 
 - **Workshop on Commutative Algebra**  
   Ton Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017
