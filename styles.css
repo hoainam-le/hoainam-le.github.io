@@ -13,7 +13,9 @@ pre.sourceCode.sage, code.sourceCode.sage {
   border-radius: 6px;
 }
 
-
+a.people-link {  
+  color: #7a887a;
+}
 
 a.certificate-link {
   color: #0077cc;
