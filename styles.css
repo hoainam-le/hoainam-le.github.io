@@ -15,3 +15,10 @@ pre.sourceCode.sage, code.sourceCode.sage {
 
 
 
+a.certificate-link {
+  color: #0077cc;
+}
+
+a.photo-link {  
+  color: darkorange;
+}
