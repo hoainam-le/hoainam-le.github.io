@@ -24,3 +24,23 @@ a.certificate-link {
 a.photo-link {  
   color: darkorange;
 }
+
+/* Nút PDF (outline style) */
+.btn-pdf {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 5px 6px 5px 0;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.85em;
+  font-weight: 500;
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: transparent;
+}
+
+.btn-pdf:hover {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
