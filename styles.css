@@ -17,7 +17,7 @@ a.people-link {
   color: #7a887a;
 }
 
-a.certificate-link {
+a.internal-link {
   color: #0077cc;
 }
 
@@ -44,4 +44,14 @@ a.photo-link {
   background-color: #000000;
   color: #ffffff;
   text-decoration: none;
+}
+
+
+.news-table tr {
+  height: 2.0em;       /* tăng chiều cao dòng */
+}
+
+.news-table td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;  /* tăng khoảng cách trên và dưới text */
 }

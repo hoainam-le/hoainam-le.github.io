@@ -35,18 +35,11 @@
     "text": "Đây là hình minh họa:\n\n\n\n\nMặt trời lặn\n\n\n\nBạn thấy đẹp không?"
   },
   {
-    "objectID": "honors.html",
-    "href": "honors.html",
-    "title": "Honors & Awards",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hoai Nam Le",
     "section": "",
-    "text": "2024: Fully Funded Doctoral Fellowship, Florida Atlantic University.\n\n2019: Recognized for academic excellence as one of the top-performing students in the Mathematics Department, Spring Semester, 4th Year, Ho Chi Minh University of Education.\n\n2018: Certificate in Scientific Research, Mathematics Department, Ho Chi Minh University of Education."
-  },
-  {
-    "objectID": "academic.html#schools-and-workshops-attended",
-    "href": "academic.html#schools-and-workshops-attended",
-    "title": "Academic Activities",
-    "section": "Schools and Workshops Attended",
-    "text": "Schools and Workshops Attended\n\nPreliminary Arizona Winter School 2025: Mathematical cryptography and algorithms in number theory\nOnline, September 22nd — November 21st, 2025 (upcoming)\nGraduate Workshop on Linear Algebra over Finite Fields & Applications\nICERM, Brown University, USA, August 18–29, 2025 (upcoming)\nRethinking Number Theory 6 (RNT 6) Workshop\n\nOnline, June 16–27, 2025.\nGroup project: The exceptional set in Cassels’s theorem on smallcyclotomic integers 🏰.\nProject Leader: Kiran Kedlaya.\n\n\nA CIMPA School on Applied Number Theory\nHo Chi Minh City University of Education, Vietnam, June 3–14, 2024. Certificate\nA SEAMS School on Number Theory and Applications\nIndustrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023. Certificate\nCIMPA Research School on Group Actions in Arithmetic and Geometry\nGadjah Mada University, Indonesia, February 17–28, 2020. Certificate\nWorkshop on Commutative Algebra\nTon Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017"
+    "text": "My name is Hoai Nam Le (Lê Hoài Nam in Vietnamese), and most people just call me Nam. I am currently a Ph.D. student in the Department of Mathematics and Statistics at Florida Atlantic University.\nMy research interests lie in the area of number theory, particularly algebraic number theory and its applications in Cryptography and Coding theory. Specific topics include, but are not limited to:\n\nLattice-based cryptography\n\nAlgebraic number theory\n\n\n  \n  \n  \n  \n  \n\n\n\n\nLatest Updates\n\n\n\n\n\n\n\n\nDate\nNews\n\n\n\n\nAugust 18–29, 2025\nParticipated in the Graduate Workshop on Linear Algebra over Finite Fields & Applications at Brown University.\n\n\nJune 16–27, 2025\nParticipated in the Rethinking Number Theory 6 (RNT 6) Workshop online.\n\n\nJanuary 22, 2025\nPassed the Algebra Qualifying Exam.\n\n\nAugust 17, 2024\nStarted the Ph.D. program at FAU.\n\n\n\n\nSee all updates\n\n\nContact\nIf you would like to discuss a potential collaboration, please feel free to email me.\n📧 Email:\nnamhoai12to2 [at] gmail [dot] com\nnamle2024 [at] fau [dot] edu \n📍 Address:\nDepartment of Mathematics and Statistics\nFlorida Atlantic University\n777 Glades Rd, Boca Raton, FL 33431, USA"
   },
   {
     "objectID": "cv.html",
@@ -91,11 +84,25 @@
     "text": "📑 References"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hoai Nam Le",
+    "objectID": "academic.html#schools-and-workshops-attended",
+    "href": "academic.html#schools-and-workshops-attended",
+    "title": "Academic Activities",
+    "section": "Schools and Workshops Attended",
+    "text": "Schools and Workshops Attended\n\nPreliminary Arizona Winter School 2025: Mathematical cryptography and algorithms in number theory\nOnline, September 22nd — November 21st, 2025 (upcoming)\nGraduate Workshop on Linear Algebra over Finite Fields & Applications\nICERM, Brown University, USA, August 18–29, 2025 (upcoming)\nRethinking Number Theory 6 (RNT 6) Workshop\n\nOnline, June 16–27, 2025.\nGroup project: The exceptional set in Cassels’s theorem on smallcyclotomic integers 🏰.\nProject Leader: Kiran Kedlaya.\n\n\nA CIMPA School on Applied Number Theory\nHo Chi Minh City University of Education, Vietnam, June 3–14, 2024. Certificate\nA SEAMS School on Number Theory and Applications\nIndustrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023. Certificate\nCIMPA Research School on Group Actions in Arithmetic and Geometry\nGadjah Mada University, Indonesia, February 17–28, 2020. Certificate\nWorkshop on Commutative Algebra\nTon Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017"
+  },
+  {
+    "objectID": "honors.html",
+    "href": "honors.html",
+    "title": "Honors & Awards",
     "section": "",
-    "text": "My name is Hoai Nam Le (Lê Hoài Nam in Vietnamese), and most people just call me Nam. I am currently a Ph.D. student in the Department of Mathematics and Statistics at Florida Atlantic University.\nMy research interests lie in the area of number theory, particularly algebraic number theory and its applications in Cryptography and Coding theory. Specific topics include, but are not limited to:\n\nLattice-based cryptography\n\nAlgebraic number theory\n\n\n  \n  \n  \n  \n  \n\n\n\n\nContact\nIf you would like to discuss a potential collaboration, please feel free to email me.\n📧 Email:\nnamhoai12to2 [at] gmail [dot] com\nnamle2024 [at] fau [dot] edu \n📍 Address:\nDepartment of Mathematics and Statistics\nFlorida Atlantic University\n777 Glades Rd, Boca Raton, FL 33431, USA"
+    "text": "2024: Fully Funded Doctoral Fellowship, Florida Atlantic University.\n\n2019: Recognized for academic excellence as one of the top-performing students in the Mathematics Department, Spring Semester, 4th Year, Ho Chi Minh University of Education.\n\n2018: Certificate in Scientific Research, Mathematics Department, Ho Chi Minh University of Education."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "All Updates",
+    "section": "",
+    "text": "Date\nNews\n\n\n\n\nAugust 18–29, 2025\nParticipated in the Graduate Workshop on Linear Algebra over Finite Fields & Applications at Brown University.\n\n\nJune 16–27, 2025\nParticipated in the Rethinking Number Theory 6 (RNT 6) Workshop online.\n\n\nJanuary 22, 2025\nPassed the Algebra Qualifying Exam.\n\n\nAugust 17, 2024\nStarted the Ph.D. program at FAU."
   },
   {
     "objectID": "posts/academic/index.html",
