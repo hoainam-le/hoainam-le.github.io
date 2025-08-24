@@ -37,5 +37,17 @@
   },
   "useful_links.qmd": {
     "useful_links.html": "8f0f0bbd"
+  },
+  "news.qmd": {
+    "news.html": "1f247de6"
+  },
+  "news/2025-05-02-grf-award.qmd": {
+    "2025-05-02-grf-award.html": "3b04d9cd"
+  },
+  "news/2025-07-15-jnt-paper.qmd": {
+    "2025-07-15-jnt-paper.html": "4e05c8fb"
+  },
+  "news/2025-08-01-florida-algebra.qmd": {
+    "2025-08-01-florida-algebra.html": "eff6fe04"
   }
 }

@@ -1,0 +1,15 @@
+---
+title: "All Updates"
+---
+<br>
+
+
+::: {.news-table}
+| Date       | News |
+|-----|---------------|
+| August 18–29, 2025     | Participated in the *Graduate Workshop on Linear Algebra over Finite Fields & Applications* at Brown University. |
+| June 16–27, 2025       | Participated in the *Rethinking Number Theory 6 (RNT 6) Workshop* online. |
+| January 22, 2025       | Passed the Algebra Qualifying Exam. |
+| August 17, 2024        | Started the Ph.D. program at FAU. |
+
+:::

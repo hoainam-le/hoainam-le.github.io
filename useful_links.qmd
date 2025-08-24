@@ -4,9 +4,11 @@ title: "Useful Links"
 
 <br>
 
-(@) [Number Theory Web](http://www.numbertheory.org/ntw/web.html)
-(@) [RNT: Rethinking Number Theory](https://sites.google.com/view/rethinkingnumbertheory/home)
-(@) [CIMPA](https://www.cimpa.info/en)
-(@) [MIT OpenCourseWare](https://ocw.mit.edu/)
-(@) [Carmin.tv](https://www.carmin.tv/en/)
-(@) [Useful Math Topics by Keith Conrad](https://kconrad.math.uconn.edu/blurbs/)
+(@) [Number Theory Web](http://www.numbertheory.org/ntw/web.html){target="_blank"}
+(@) [RNT: Rethinking Number Theory](https://sites.google.com/view/rethinkingnumbertheory/home){target="_blank"}
+(@) [CIMPA](https://www.cimpa.info/en){target="_blank"}
+(@) [MIT OpenCourseWare](https://ocw.mit.edu/){target="_blank"}
+(@) [Carmin.tv](https://www.carmin.tv/en/){target="_blank"}
+(@) [Useful Math Topics by Keith Conrad](https://kconrad.math.uconn.edu/blurbs/){target="_blank"}
+(@) [The Lattice Club](https://thelatticeclub.com/){target="_blank"}
+(@) [FHE](https://fhe.org/){target="_blank"}

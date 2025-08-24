@@ -2,8 +2,9 @@ project:
   type: website
 
 website:
+
   page-footer: 
-    left: "The only way to do great work is to love what you do. - Steve Jobs" 
+    left: "Smile, breathe and go slowly. - Thích Nhất Hạnh" 
     right: 
       - icon: github
         href: https://github.com/hoainam-le
@@ -12,9 +13,11 @@ website:
       - icon: facebook
         href: https://www.facebook.com/namhltv/
   
-  title: "Hoai Nam Le"
-
+  title: "Nam Hoai Le"
+  google-analytics: "G-BHPEXB34GQ"
   navbar:
+    style: "floating"
+    main-container-width: "wide"
     # logo: images/namle.jpg
     left:
       - text: "About"
@@ -25,12 +28,14 @@ website:
         href: teaching.qmd
       - text: "Academic Activities"
         href: academic.qmd
-      - text: "Honors & Awards"
-        href: honors.qmd
       - text: "CV"
         href: cv.qmd
-      - text: "Useful Links"
-        href: useful_links.qmd
+      - text: "More"
+        menu:
+          - text: "Honors & Awards"
+            href: honors.qmd
+          - text: "Useful Links"
+            href: useful_links.qmd
       # - text: "Blog"
       #   menu:
       #     - text: "Academic"
@@ -44,12 +49,16 @@ website:
     #     href: https://x.com/NamLeHoai97
     #   - icon: facebook
     #     href: https://www.facebook.com/namhltv/
+    
 
 format:
   html:
+    page-layout: full
     theme:
       light: flatly
       dark: darkly
     css: styles.css
     toc: true
     toc-location: right
+
+  

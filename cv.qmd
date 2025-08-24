@@ -2,21 +2,21 @@
 title: "Curriculum Vitae"
 ---
 :::{.text-center}
-[View CV](files/CV_NamLe.pdf){.btn .btn-primary style="margin-bottom: 0.5em;"}  
-<span style="color:gray; font-size: 90%;">(updated May 5, 2025)</span>
+[View CV](files/CV_NamLe.pdf){.btn .btn-info target="_blank" style="margin-bottom: 0.5em;"}  
+<span style="color:gray; font-size: 90%;">(updated August 23, 2025)</span>
 :::
 
 
 
 ## 🎓 Education
 
--  Aug 2024 – Present, **PhD Student in Mathematics**, Florida Atlantic University
+-  Aug 2024 – Present, **Ph.D. Student in Mathematics**, [Florida Atlantic University](https://www.fau.edu/){target="_blank"}  
 
--  Dec 2019 – Dec 2022, **Master of Science in Algebra and Number Theory**, Ho Chi Minh City University of Science  
+-  Dec 2019 – Dec 2022, **M.S. in Algebra and Number Theory**, [Ho Chi Minh City University of Science](https://en.hcmus.edu.vn/){target="_blank"}    
    Thesis: *Well-rounded twists of ideal lattices from imaginary quadratic fields*  
    Supervisor: Assoc. Prof. Ha Tran, Dr. Le Van Luyen
 
-- Sep 2015 – Jun 2019, **Bachelor of Science in Mathematics Teacher Education**, Ho Chi Minh City University of Education  
+- Sep 2015 – Jun 2019, **B.S. in Mathematics Teacher Education**, [Ho Chi Minh City University of Education](https://hcmue.edu.vn/en/){target="_blank"}  
    Thesis: *Spectrum of a ring*  
    Supervisor: Assoc. Prof. My Vinh Quang
 

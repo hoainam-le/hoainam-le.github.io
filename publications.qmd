@@ -5,8 +5,14 @@ title: "Publications"
 
 ### Projects
 
+- **Well-Rounded ideal lattices of biquadratic and pure cubic fields**   
+  <span style="color:gray">July 2025 – at present</span> with Dat T. Tran, Morgan Smith, and Ha T. N. Tran
+
+- **The exceptional set in Cassels’s theorem on smallcyclotomic integers**   
+  <span style="color:gray">June 2025 – at present</span> with Kiran Kedlaya, Jorge Mello, Antoine Leudière, Jitendra Bajpai, Meghan Lee, and Srijan Das.
+
 - **Well-rounded Twists of Lattices in $\mathbb{R}^3$**  
-  <span style="color:gray">July 2023 – present</span> with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.
+  <span style="color:gray">July 2023 – June 2025</span> with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.
 
 - **Well-rounded ideals of cubic and quartic fields**  
   <span style="color:gray">June 2021 – April 2023</span> with Dat T. Tran and Ha T. N. Tran.
@@ -21,9 +27,10 @@ title: "Publications"
 
 ### Publications
 
-- 📝 **Well-rounded twists of the ring of integrers of cyclic cubic fields**, with  Dat T.  Tran, Ha T. N. Tran and David A. Karpuk, in preparation.
+1. **Well-rounded twists of the ring of integrers of cyclic cubic fields**, with Dat T. Tran, Ha T. N. Tran and Dave Karpuk, submitted.
 
-- 📝 **[Well-Rounded ideal lattices of cyclic cubic and quartic fields](https://cm.episciences.org/12425)**, with Dat T. Tran and Ha T. N. Tran, _Communications in Mathematics_, Vol. 31, Issue 2 (Oct 18, 2023). [(arXiv)](https://arxiv.org/abs/2303.16968)  
+1. **Well-Rounded ideal lattices of cyclic cubic and quartic fields**, with Dat T. Tran and Ha T. N. Tran, _Communications in Mathematics_, Vol. 31, Issue 2 (Oct 18, 2023). [arXiv](https://arxiv.org/abs/2303.16968){.btn-pdf target="_blank"} [Journal](https://cm.episciences.org/12425){.btn-pdf target="_blank"}
 
-- 📝 **[Well-rounded twists of ideal lattices from imaginary quadratic fields](https://www.worldscientific.com/doi/abs/10.1142/S021949882250133X)**, with Dat T. Tran and Ha T. N. Tran, _Journal of Algebra and Its Applications_, Vol. 21, No. 07, 2250133 (2022). [(arXiv)](https://arxiv.org/abs/2210.15049)
-
+1. **Well-rounded twists of ideal lattices from imaginary quadratic fields**, with Dat T. Tran and Ha T. N. Tran, _Journal of Algebra and Its Applications_, Vol. 21, No. 07, 2250133 (2022).
+[arXiv](https://arxiv.org/abs/2210.15049){.btn-pdf target="_blank"}
+[Journal](https://www.worldscientific.com/doi/abs/10.1142/S021949882250133X){.btn-pdf target="_blank"}

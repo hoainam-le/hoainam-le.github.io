@@ -13,5 +13,45 @@ pre.sourceCode.sage, code.sourceCode.sage {
   border-radius: 6px;
 }
 
+a.people-link {  
+  color: #7a887a;
+}
+
+a.internal-link {
+  color: #0077cc;
+}
+
+a.photo-link {  
+  color: darkorange;
+}
+
+/* Nút PDF (outline style) */
+.btn-pdf {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 5px 6px 5px 0;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.85em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: transparent;
+}
+
+.btn-pdf:hover {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
 
 
+.news-table tr {
+  height: 2.0em;       /* tăng chiều cao dòng */
+}
+
+.news-table td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;  /* tăng khoảng cách trên và dưới text */
+}

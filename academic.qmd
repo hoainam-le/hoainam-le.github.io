@@ -4,22 +4,29 @@ title: "Academic Activities"
 
 <br>
 
-## Summer Schools and Workshops Attended
+## Schools and Workshops Attended
 
-- **[Graduate Workshop on Linear Algebra over Finite Fields & Applications](https://icerm.brown.edu/program/topical_workshop/tw-25-laffa)**  
+- **[Preliminary Arizona Winter School 2025: Mathematical cryptography and algorithms in number theory](https://swc-math.github.io/aws/2026/2026PAWS.html){target="_blank"}**  
+  Online, September 22nd — November 21st, 2025 _(upcoming)_
+
+- **[Graduate Workshop on Linear Algebra over Finite Fields & Applications](https://icerm.brown.edu/program/topical_workshop/tw-25-laffa){target="_blank"}**  
   ICERM, Brown University, USA, August 18–29, 2025 _(upcoming)_
 
-- **[Rethinking Number Theory 6 (RNT 6) Workshop](https://sites.google.com/view/rethinkingnumbertheory/workshop-details?authuser=0)**  
-  Online, June 16 - 27, 2025
+- **[Rethinking Number Theory 6 (RNT 6) Workshop](https://sites.google.com/view/rethinkingnumbertheory/home?authuser=0){target="_blank"}** 
+  - Online, June 16–27, 2025.
+  - Group project: [The exceptional set in Cassels's theorem on smallcyclotomic integers 🏰](https://sites.google.com/view/rethinkingnumbertheory/projects?authuser=0#h.kgmqw9mgk2ed){.people-link target="_blank"}.
+  - Project Leader: [Kiran Kedlaya](https://kskedlaya.org/){.people-link target="_blank"}.  
+  <!-- [Team Photo](images/Team3.png){.photo-link target="_blank"} | [All Participants](images/RNT6.png){.photo-link target="_blank"} -->
 
-- **[A CIMPA School on Applied Number Theory](http://www.rnta.eu/HCMC2024/index.html)**  
-  Ho Chi Minh City University of Education, Vietnam, June 3–14, 2024 ([Certificate](files/Certificate_cimpa2024.pdf))
 
-- **[A SEAMS School on Number Theory and Applications](http://www.rnta.eu/HCMC2023/index.html)**  
-  Industrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023 ([Certificate](files/Certificate_seams2023.pdf))
+- **[A CIMPA School on Applied Number Theory](http://www.rnta.eu/HCMC2024/index.html){target="_blank"}**  
+  Ho Chi Minh City University of Education, Vietnam, June 3–14, 2024. [Certificate](files/Certificate_cimpa2024.pdf){.btn-pdf target="_blank"} 
 
-- **[CIMPA Research School on Group Actions in Arithmetic and Geometry](http://www.rnta.eu/Yogyakarta2020/)**  
-  Gadjah Mada University, Indonesia, February 17–28, 2020 ([Certificate](files/Certifies_cimpa2020.pdf))
+- **[A SEAMS School on Number Theory and Applications](http://www.rnta.eu/HCMC2023/index.html){target="_blank"}**  
+  Industrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023. [Certificate](files/Certificate_seams2023.pdf){.btn-pdf target="_blank"} 
+
+- **[CIMPA Research School on Group Actions in Arithmetic and Geometry](http://www.rnta.eu/Yogyakarta2020/){target="_blank"}**  
+  Gadjah Mada University, Indonesia, February 17–28, 2020. [Certificate](files/Certifies_cimpa2020.pdf){.btn-pdf target="_blank"} 
 
 - **Workshop on Commutative Algebra**  
   Ton Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017
