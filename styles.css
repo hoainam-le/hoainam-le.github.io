@@ -14,7 +14,11 @@ pre.sourceCode.sage, code.sourceCode.sage {
 }
 
 a.people-link {  
-  color: #7a887a;
+  color: #080807;
+}
+
+a.caslte-link {  
+  color: #5c7b5c;
 }
 
 a.internal-link {
