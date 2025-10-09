@@ -59,3 +59,16 @@ a.photo-link {
   padding-top: 0.5em;
   padding-bottom: 0.5em;  /* tăng khoảng cách trên và dưới text */
 }
+
+
+/* Chỉ canh giữa tiêu đề chính ở đầu trang */
+h1 {
+  text-align: center;
+}
+
+
+
+/* Giữ nguyên các tiêu đề cấp 2 trở xuống */
+h2, h3, h4, h5, h6 {
+  text-align: left;
+}
