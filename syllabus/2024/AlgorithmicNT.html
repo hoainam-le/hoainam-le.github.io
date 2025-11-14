@@ -81,6 +81,35 @@ gtag('js', new Date());
 gtag('config', 'G-BHPEXB34GQ', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -343,89 +372,103 @@ gtag('config', 'G-BHPEXB34GQ', { 'anonymize_ip': true});
 <p><strong>Course Schedule</strong></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 10%">
-<col style="width: 43%">
-<col style="width: 20%">
-<col style="width: 25%">
+<col style="width: 8%">
+<col style="width: 19%">
+<col style="width: 26%">
+<col style="width: 23%">
+<col style="width: 22%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Week</th>
+<th>Section(s)</th>
 <th>Topics (Morning)</th>
-<th>Exercises</th>
+<th>Recommended Exercises</th>
 <th>Lab (Afternoon)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>1</strong></td>
-<td>Course intro; algorithms &amp; complexity; integer representation; primes</td>
-<td>2.1: 1–7; 2.2: 1–16; 2.3: 1–15</td>
+<td>2.1<br> 2.2<br> 2.3<br> 3.1 (read 3.2)</td>
+<td>Course intro<br>Algorithms &amp; complexity<br>Integer representation<br>Primes</td>
+<td>2.1: 1–7<br> 2.2: 1–16<br> 2.3: 1–15</td>
 <td>—</td>
 </tr>
 <tr class="even">
 <td><strong>2</strong></td>
-<td>Euclid algorithm; Bézout lemma</td>
-<td>3.3: 1–32; 3.4: 1–10, 19, 20</td>
+<td>3.3<br> 3.4<br> 3.5 (read 3.6)</td>
+<td>Euclid algorithm<br>Bézout lemma</td>
+<td>3.3: 1–32<br> 3.4: 1–10, 19, 20</td>
 <td>—</td>
 </tr>
 <tr class="odd">
 <td><strong>3</strong></td>
-<td>Diophantine equations; congruences; CRT; divisibility</td>
-<td>3.7: 1–10; 4.1: 5,15,30,31,36; 4.2: 1–2; 4.3: 4</td>
+<td>3.7<br>4.1<br> 4.2<br>4.3<br>4.4–4.5 (read)<br>5.1</td>
+<td>Diophantine equations<br>Congruences<br>Chinese Remainder Theorem<br>Linear congruence systems<br>Divisibility</td>
+<td>3.7: 1–10 <br>4.1: 5, 15, 30, 31, 36<br> 4.2: 1–2<br> 4.3: 4</td>
 <td>Lab 1 — Python Intro</td>
 </tr>
 <tr class="even">
 <td><strong>4</strong></td>
-<td>Fermat &amp; Wilson; pseudoprimes; Euler’s theorem; arithmetic functions</td>
-<td>6.1: 12,13,15,17; 6.2: 16,20; 6.3: 5–12; 7.1: 2,5,11,12</td>
+<td>6.1<br>6.2<br>6.3<br>7.1;<br>7.2</td>
+<td>Fermat &amp; Wilson<br>Pseudoprimes &amp; Carmichael numbers<br>Euler’s theorem<br>Arithmetic functions</td>
+<td>6.1: 12, 13, 15, 17<br> 6.2: 16,20<br> 6.3: 5–12<br> 7.1: 2,5,11,12</td>
 <td>Lab 2 — Loops &amp; Linked Lists</td>
 </tr>
 <tr class="odd">
 <td><strong>5</strong></td>
-<td>Perfect numbers; Mersenne primes; Möbius function; primitive roots</td>
+<td>7.3<br>7.4<br>9.1</td>
+<td>Perfect numbers<br>Mersenne primes<br>Möbius function<br>Primitive roots</td>
 <td>9.1: 1–20</td>
 <td>Lab 3 — Data Structures</td>
 </tr>
 <tr class="even">
 <td><strong>6</strong></td>
-<td>Quadratic residues; Legendre symbol; Jacobi symbol; midterm review</td>
-<td>11.1: 4,6,8,9,10,13,20,41; 11.2: 1</td>
+<td>11.1<br>11.2<br>11.3</td>
+<td>Quadratic residues<br>Legendre symbol<br>Jacobi symbol</td>
+<td>11.1: 4, 6, 8, 9, 10, 13, 20, 41<br> 11.2: 1</td>
 <td>Exercises + coding practice</td>
 </tr>
 <tr class="odd">
 <td><strong>7</strong></td>
-<td>Midterm review &amp; 90-min Midterm exam</td>
 <td>—</td>
-<td>Lab 4 — OOP</td>
+<td>Midterm review<br>90-min Midterm exam</td>
+<td>—</td>
+<td>Lab 4 — Object-Oriented Programming</td>
 </tr>
 <tr class="even">
 <td><strong>8</strong></td>
-<td>Primality tests (deterministic, Miller–Rabin, Euler pseudoprimes, Solovay–Strassen)</td>
-<td>—</td>
+<td>6.2<br>11.4</td>
+<td>Primality tests<br>Deterministic<br>Miller–Rabin<br>Euler pseudoprimes<br>Solovay–Strassen</td>
+<td>Design and implement the corresponding primality-testing algorithms</td>
 <td>Lab 5 — File I/O</td>
 </tr>
 <tr class="odd">
 <td><strong>9</strong></td>
-<td>Integer factorization: Pollard ρ, Pollard p−1; continued fractions; NFS idea</td>
-<td>4.6: 1</td>
+<td>9.5<br>3.6<br>4.6<br>6.1<br>12.5</td>
+<td>Integer factorization:<br>Pollard Rho<br>Pollard <span class="math inline">\(p−1\)</span><br>Continued fractions<br>CF algorithms<br>NFS idea</td>
+<td>-</td>
 <td>Lab 6 — Modules</td>
 </tr>
 <tr class="even">
 <td><strong>10</strong></td>
-<td>Caesar cipher; RSA; ElGamal</td>
-<td>—</td>
+<td>8.1<br>8.2<br>8.3<br>8.4 <br>10.2</td>
+<td>Caesar cipher<br>RSA<br>ElGamal</td>
+<td>Implement encryption and decryption algorithms for RSA and ElGamal.</td>
 <td>Exercises + practice</td>
 </tr>
 <tr class="odd">
 <td><strong>11</strong></td>
-<td>Baby-Step Giant-Step; Pollard rho; Index calculus</td>
 <td>—</td>
+<td>Discrete Logarithm Problem:<br> Baby-Step Giant-Step<br>Pollard Rho<br>Index calculus</td>
+<td>Design and implement the corresponding discrete logarithm algorithms</td>
 <td>Lab 7 — Packages</td>
 </tr>
 <tr class="even">
 <td><strong>12</strong></td>
-<td>Midterm grade review; final exam prep</td>
+<td>—</td>
+<td>Review Midterm<br>Final exam prep</td>
 <td>—</td>
 <td>Lab 8 — Exceptions</td>
 </tr>
