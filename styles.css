@@ -72,3 +72,22 @@ h1 {
 h2, h3, h4, h5, h6 {
   text-align: left;
 }
+
+
+
+.course-table table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #000; /* viền ngoài đậm */
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #000;   /* viền từng ô */
+  padding: 6px 10px;        /* dễ đọc */
+  vertical-align: top;      /* canh nội dung top rất đẹp */
+}
+
+.course-table th {
+  background-color: #f2f2f2;  /* giúp header nổi bật, tùy chọn */
+}
