@@ -7,39 +7,81 @@
     "text": "Number Theory Web\nRNT: Rethinking Number Theory\nCIMPA\nMIT OpenCourseWare\nCarmin.tv\nUseful Math Topics by Keith Conrad\nThe Lattice Club\nFHE"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "syllabus/2025/MGF1130.html",
+    "href": "syllabus/2025/MGF1130.html",
+    "title": "MGF 1130 - Math Thinking in Context 1",
     "section": "",
-    "text": "Publications\n\nWell-rounded twists of the ring of integrers of cyclic cubic fields, with Dat T. Tran, Ha T. N. Tran and Dave Karpuk, submitted.\narXiv\nWell-Rounded ideal lattices of cyclic cubic and quartic fields, with Dat T. Tran and Ha T. N. Tran, Communications in Mathematics, Vol. 31, Issue 2 (Oct 18, 2023).\narXiv Journal\nWell-rounded twists of ideal lattices from imaginary quadratic fields, with Dat T. Tran and Ha T. N. Tran, Journal of Algebra and Its Applications, Vol. 21, No. 07, 2250133 (2022).\narXiv Journal\n\n\n\n\nProjects\n\nWell-Rounded ideal lattices of biquadratic and pure cubic fields\nJuly 2025 – at present with Dat T. Tran, Morgan Smith, and Ha T. N. Tran\nThe exceptional set in Cassels’s theorem on smallcyclotomic integers\nJune 2025 – at present with with Jorge Mello, Antoine Leudière, Jitendra Bajpai, Meghan Lee, and Srijan Das; under the supervision of Prof. Kiran Kedlaya.\nWell-rounded Twists of Lattices in \\(\\mathbb{R}^3\\)\nJuly 2023 – June 2025 with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.\nWell-rounded ideals of cubic and quartic fields\nJune 2021 – April 2023 with Dat T. Tran and Ha T. N. Tran.\nOn norm Euclidean tri-quadratic fields\nMay 2020 – February 2021 with Amy Feaver, Dat T. Tran, and Ha T. N. Tran.\nWell-rounded twists of quadratic fields\nJanuary 2020 – June 2020 with Dat T. Tran and Ha T. N. Tran."
+    "text": "Instructor: Nam Hoai Le\nEmail: namle2024@fau.edu\nOffice: Math Learning Center (MLC)\nOffice Hours:\n- Monday: 11:00 AM – 12:00 PM\n- Tuesday: 11:00 AM – 1:00 PM\nLecture time and location: Tuesday, Thursday — 2:00 PM to 3:20 PM - General Classroom South Boca — Room 120\nFor detailed course information, please visit Canvas."
   },
   {
-    "objectID": "posts/life/index.html",
-    "href": "posts/life/index.html",
-    "title": "Daily Life",
-    "section": "",
-    "text": "Welcome to the Daily Life section of my blog.\nOutside of academics, I enjoy playing sports—especially soccer. I also love watching matches and analyzing soccer tactics; it’s something I find truly fascinating.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nMy se Post\n\n\nhmm\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/academic/third.html",
-    "href": "posts/academic/third.html",
-    "title": "My third Post",
+    "objectID": "posts/life/second.html",
+    "href": "posts/life/second.html",
+    "title": "My se Post",
     "section": "",
     "text": "We have \\(x^2=3\\iff x=\\pm 2\\)"
   },
   {
-    "objectID": "posts/academic/frou.html",
-    "href": "posts/academic/frou.html",
-    "title": "My a Post",
+    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html",
+    "href": "posts/academic/WRness_of_IdealLattice_Sage.html",
+    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
     "section": "",
-    "text": "Đây là hình minh họa:\n\n\n\n\nMặt trời lặn\n\n\n\nBạn thấy đẹp không?"
+    "text": "In this post, I will show how to check whether an ideal lattice is well-rounded (WR) using SageMath. We will review the necessary mathematical background, the relevant theory, and provide practical SageMath code examples to illustrate the process."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nam Hoai Le",
+    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html#lattice",
+    "href": "posts/academic/WRness_of_IdealLattice_Sage.html#lattice",
+    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
+    "section": "Lattice",
+    "text": "Lattice\nLet \\(B=\\{e_1,\\cdots,e_m\\}\\) be a set of linear independent vectors in \\(\\mathbb{R}^n\\) (\\(m\\le n\\)). The set \\[\n\\begin{align}\nL = \\left\\{\\sum_{i=1}^m a_ie_i\\Bigg| a_i\\in \\mathbb{Z} \\right\\}\n\\end{align}\n\\] is called the lattice of \\(\\mathbb{R}^n\\) of rank \\(m\\). The set \\(B\\) is called the basis of \\(L\\). Furthermore, we say \\(L\\) is a full rank lattice if \\(m=n\\).\nThe minimal length of \\(L\\) is defined by \\[\n\\lambda_1(L) = \\min\\{\\|x\\|^2: x\\in L\\setminus \\{0\\}\\}\n\\] where \\(\\|\\cdot\\|\\) denotes the Euclidean norm on \\(\\mathbb{R}^n\\). The set of shortest vectors of \\(L\\) is \\[S(L):= \\{x\\in L:\\|x\\|^2 = \\lambda_1(L)\\}\n\\]\nA lattice \\(L\\) of dimension \\(n\\) is said to be well-rounded (WR) if the set \\(S(L)\\) contains \\(n\\) linearly independence vectors.\nFurthermore, two lattices \\(L_1\\) and \\(L_2\\) are called similar if there exist an \\(n\\times n\\) real orthogonal matrix \\(O\\) and a non real zero constant \\(\\alpha\\) so that \\(L_1 = \\alpha O L_2\\)."
+  },
+  {
+    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html#number-field",
+    "href": "posts/academic/WRness_of_IdealLattice_Sage.html#number-field",
+    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
+    "section": "Number field",
+    "text": "Number field\nLet \\(K\\) be a number field, i.e., a finite extension of \\(\\mathbb{Q}\\). Since \\(\\mathbb{Q}\\) is perfect, the extension \\(K/\\mathbb{Q}\\) is separable. Thus, every number field is a finite separable extension of \\(\\mathbb{Q}\\). By the Primitive Element Theorem, \\(K\\) is a simple extension, so there exists \\(\\alpha \\in K\\) such that \\(K = \\mathbb{Q}(\\alpha)\\). Since \\(K/\\mathbb{Q}\\) is finite, \\(\\alpha\\) is algebraic over \\(\\mathbb{Q}\\).\nMoreover, there exists a non-zero \\(c \\in \\mathbb{Z}\\) such that \\(c\\alpha = \\theta\\), where \\(\\theta\\) is an algebraic integer. Hence, \\[K = \\mathbb{Q}(\\alpha) = \\mathbb{Q}(\\theta).\n\\]\nLet \\(m_{\\theta,\\mathbb{Q}}(x)\\) be the minimal polynomial of \\(\\theta\\) over \\(\\mathbb{Q}\\) of degree \\(n\\), and let \\(\\theta_1, \\dots, \\theta_n\\) (with \\(\\theta = \\theta_1\\)) denote its distinct roots in \\(\\mathbb{C}\\) (all roots are distinct because of the separability of \\(K\\)). Then there are exactly \\(n\\) distinct field embeddings (monomorphisms) \\(\\sigma_i: K \\to \\mathbb{C}\\) \\((i = 1, \\dots, n)\\) such that \\(\\sigma_i(\\theta) = \\theta_i\\).\nWe observe that \\(\\sigma_i(K) \\subseteq \\mathbb{R}\\) if and only if \\(\\sigma_i(\\theta) \\in \\mathbb{R}\\). In this case, \\(\\sigma_i\\) is said to be real; otherwise, it is called complex.\nSince complex conjugation \\(\\tau: \\mathbb{C} \\to \\mathbb{C}\\) is a field automorphism, the composition \\[\n\\overline{\\sigma}_i := \\tau \\circ \\sigma_i: K \\to \\mathbb{C} \\to \\mathbb{C}\n\\] defined by \\(\\overline{\\sigma}_i(\\theta) = \\overline{\\sigma_i(\\theta)}\\), is also a field embedding. Thus, \\(\\overline{\\sigma}_i = \\sigma_j\\) for some \\(1 \\leq j \\leq n\\).\nMoreover, since \\(\\tau(x) = x\\) if and only if \\(x \\in \\mathbb{R}\\) and \\(\\overline{\\overline{\\sigma}_i} = \\sigma_i\\), we have that \\(\\sigma_i\\) is real if and only if \\(\\sigma_i = \\overline{\\sigma}_i\\). In particular, the complex embeddings always occur in conjugate pairs.\nTherefore, if \\(r_1\\) is the number of real embeddings and \\(2r_2\\) is the number of complex embeddings (which come in pairs), then the total number of embeddings is \\(n = r_1 + 2r_2\\). Let’s denote \\[\n\\sigma_1\\cdots, \\sigma_{r_1},\\tau_{1},\\overline{\\tau}_1,\\cdots, \\tau_{r_2},\\overline{\\tau}_{r_2}\n\\] are all monomorphisms from \\(K\\to \\mathbb{C}\\).\nFurthermore, the direct product \\(\\mathbb{R}^{r_1} \\times \\mathbb{C}^{r_2}\\) is a vector space over \\(\\mathbb{R}\\) of dimension \\(r_1 + 2r_2 = n\\) (this is also a ring with componentwise operations i.e., \\(\\mathbb{R}^{r_1} \\times \\mathbb{C}^{r_2}\\) is an \\(\\mathbb R\\)-algebra). We define a map: \\[\n\\begin{align}\n\\sigma:&\\ K\\to \\mathbb{R}^{r_1}\\times \\mathbb{C}^{r_2}\\\\\n&x\\mapsto (\\sigma_1(x),\\cdots,\\sigma_{r_1}(x),\\tau_1(x),\\cdots,\\tau_{r_2}(x))\n\\end{align}\n\\]\nThis is a \\(\\mathbb Q\\)-algebra homomorphism, so \\(\\sigma\\) is either the zero map or injective. Since \\(\\sigma(1) = (1, \\dots, 1) \\neq 0\\), \\(\\sigma\\) must be injective. In other words, this map embeds \\(K\\) into \\(\\mathbb{R}^{r_1} \\times \\mathbb{C}^{r_2}\\) as a subring.\nNow suppose we view \\(\\mathbb{R}^{r_1} \\times \\mathbb{C}^{r_2}\\cong \\mathbb R^n\\) as a vector space over \\(\\mathbb R\\). Since each \\(\\tau_i(x) \\in \\mathbb{C}\\) can be written as \\(\\operatorname{Re}(\\tau_i(x)) + i\\,\\operatorname{Im}(\\tau_i(x))\\), we can write the map above as \\[\n\\begin{align}\n\\sigma:&\\ K\\to \\mathbb{R}^{n}\\\\\n&x\\mapsto (\\sigma_1(x),\\cdots,\\sigma_{r_1}(x),\\operatorname{Re}(\\tau_1(x)),\\operatorname{Im}(\\tau_1(x)),\\cdots,\\operatorname{Re}(\\tau_{r_2}(x)),\\operatorname{Im}(\\tau_{r_2}(x)))\n\\end{align}\n\\]\nNote that this \\(\\sigma\\) is an \\(\\mathbb{R}\\)-vector space homomorphism. The following results still hold even when we view \\(\\sigma\\) as an \\(\\mathbb{R}\\)-vector space homomorphism.\nTheorem: The image of finite generated subgroup of \\((K,+)\\) under \\(\\sigma\\) is a lattice in \\(\\mathbb{R}^n\\). In particular, if \\(G = \\langle\\omega_1,\\cdots,\\omega_m\\rangle_{\\mathbb{Z}}\\subseteq (K,+)\\), then \\(\\sigma(G)\\) is a lattice with generators \\(\\{\\sigma(\\omega_1),\\cdots,\\sigma(\\omega_m)\\}\\)."
+  },
+  {
+    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html#ideal-lattices",
+    "href": "posts/academic/WRness_of_IdealLattice_Sage.html#ideal-lattices",
+    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
+    "section": "Ideal Lattices",
+    "text": "Ideal Lattices\nUsing the above theorem, we have that if \\(I\\) is an fractional ideal of \\(K\\), then \\(\\sigma(I)\\) is a full rank lattice of \\(\\mathbb{R}^n\\). And if \\(I\\) is an integral ideal of \\(\\mathcal{O}_K\\) then \\(\\sigma(I)\\) is a sublattice of \\(\\sigma(\\mathcal{O}_K)\\) of finite index . In particular, this index equals to \\[\n[ \\sigma(\\mathcal{O}_K): \\sigma(I)] = [\\mathcal{O}_K : I] = N(I)\n\\] where \\(N(\\cdot)\\) denotes the norm of the ideal \\(I\\) in \\(\\mathcal{O}_K\\).\nThese \\(\\sigma(I)\\) are called ideal lattices. Since \\(\\sigma\\) is an embedding, we often identify the ideal \\(I\\) with its image \\(\\sigma(I)\\) and thus refer to \\(I\\) itself as an ideal lattice."
+  },
+  {
+    "objectID": "posts/academic/index.html",
+    "href": "posts/academic/index.html",
+    "title": "Academic Writings",
     "section": "",
-    "text": "My name is Nam Hoai Le (Lê Hoài Nam in Vietnamese). I am currently a Ph.D. student in the Department of Mathematics and Statistics at Florida Atlantic University.\nMy research interests lie in the area of number theory, particularly algebraic number theory and its applications in Cryptography and Coding theory. Specific topics include, but are not limited to:\n\nLattice-based cryptography\n\nAlgebraic number theory\n\n\n  \n  \n  \n  \n  \n\n\n\n\nLatest Updates\n\n\n\n\n\n\n\n\nDate\nNews\n\n\n\n\nSeptember 22, 2025\nAttended Preliminary Arizona Winter School 2025.\n\n\nSeptember 2, 2025\nPassed the Analysis Qualifying Exam.\n\n\nAugust 18–29, 2025\nParticipated in the Graduate Workshop on Linear Algebra over Finite Fields & Applications at Brown University.\n\n\nJune 16–27, 2025\nParticipated in the Rethinking Number Theory 6 (RNT 6) Workshop online.\n\n\nJanuary 22, 2025\nPassed the Algebra Qualifying Exam.\n\n\n\n\nSee all updates\n\n\nContact\nIf you would like to discuss a potential collaboration, please feel free to email me.\n\n\n\n\n\n\n📧 Email:\n\n\n\nnamhoai12to2 [at] gmail [dot] com\nnamle2024 [at] fau [dot] edu\n\n\n\n\n\n\n\n\n📍 Address:\n\n\n\nDepartment of Mathematics and Statistics\nFlorida Atlantic University\n777 Glades Rd, Boca Raton, FL 33431, USA"
+    "text": "Welcome to the Academic section of my blog.\nHere I share notes, reflections, and insights related to mathematics, research, academic writing, and study strategies.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nMy a Post\n\n\nzzzz\n\n\n\n\n\nMay 25, 2025\n\n\n\n\n\n\n\nMy third Post\n\n\nhmm\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\nWell-Roundedness of Ideal Lattices Using SageMath\n\n\nExploring methods to test well-roundedness of ideal lattices with SageMath and Pari/GP.\n\n\n\n\n\nMay 15, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "All Updates",
+    "section": "",
+    "text": "Date\nNews\n\n\n\n\nOctober 11, 2025\nAttended Applied Algebra Days Workshop at Florida Atlantic University.\n\n\nSeptember 22, 2025\nAttended Preliminary Arizona Winter School 2025.\n\n\nSeptember 2, 2025\nPassed the Analysis Qualifying Exam.\n\n\nAugust 18–29, 2025\nParticipated in the Graduate Workshop on Linear Algebra over Finite Fields & Applications at Brown University.\n\n\nJune 16–27, 2025\nParticipated in the Rethinking Number Theory 6 (RNT 6) Workshop online.\n\n\nJanuary 22, 2025\nPassed the Algebra Qualifying Exam.\n\n\nAugust 17, 2024\nStarted the Ph.D. program at FAU."
+  },
+  {
+    "objectID": "honors.html",
+    "href": "honors.html",
+    "title": "Honors & Awards",
+    "section": "",
+    "text": "2024: Fully Funded Doctoral Fellowship, Florida Atlantic University.\n\n2019: Recognized for academic excellence as one of the top-performing students in the Mathematics Department, Spring Semester, 4th Year, Ho Chi Minh University of Education.\n\n2018: Certificate in Scientific Research, Mathematics Department, Ho Chi Minh University of Education."
+  },
+  {
+    "objectID": "academic.html#schools-and-workshops-attended",
+    "href": "academic.html#schools-and-workshops-attended",
+    "title": "Academic Activities",
+    "section": "Schools and Workshops Attended",
+    "text": "Schools and Workshops Attended\n\nApplied Algebra Days Workshop\nFlorida Atlantic University (FAU), October 11–12, 2025\nPreliminary Arizona Winter School 2025: Mathematical cryptography and algorithms in number theory\nOnline, September 22nd — November 21st, 2025\nGraduate Workshop on Linear Algebra over Finite Fields & Applications\nICERM, Brown University, USA, August 18–29, 2025\nAll Participants\nRethinking Number Theory 6 (RNT 6) Workshop\n\nOnline, June 16–27, 2025.\nGroup project: The exceptional set in Cassels’s theorem on smallcyclotomic integers 🏰.\nProject Leader: Prof. Kiran Kedlaya.\nAll Participants | Team Photo\n\nA CIMPA School on Applied Number Theory\nHo Chi Minh City University of Education, Vietnam, June 3–14, 2024. Certificate\nA SEAMS School on Number Theory and Applications\nIndustrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023. Certificate\nCIMPA Research School on Group Actions in Arithmetic and Geometry\nGadjah Mada University, Indonesia, February 17–28, 2020. Certificate\nWorkshop on Commutative Algebra\nTon Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017"
+  },
+  {
+    "objectID": "academic.html#talks",
+    "href": "academic.html#talks",
+    "title": "Academic Activities",
+    "section": "Talks",
+    "text": "Talks\n\nTo be updated…"
   },
   {
     "objectID": "cv.html",
@@ -84,81 +126,46 @@
     "text": "📑 References"
   },
   {
-    "objectID": "academic.html#schools-and-workshops-attended",
-    "href": "academic.html#schools-and-workshops-attended",
-    "title": "Academic Activities",
-    "section": "Schools and Workshops Attended",
-    "text": "Schools and Workshops Attended\n\nPreliminary Arizona Winter School 2025: Mathematical cryptography and algorithms in number theory\nOnline, September 22nd — November 21st, 2025\nGraduate Workshop on Linear Algebra over Finite Fields & Applications\nICERM, Brown University, USA, August 18–29, 2025\nAll Participants\nRethinking Number Theory 6 (RNT 6) Workshop\n\nOnline, June 16–27, 2025.\nGroup project: The exceptional set in Cassels’s theorem on smallcyclotomic integers 🏰.\nProject Leader: Prof. Kiran Kedlaya.\nAll Participants | Team Photo\n\nA CIMPA School on Applied Number Theory\nHo Chi Minh City University of Education, Vietnam, June 3–14, 2024. Certificate\nA SEAMS School on Number Theory and Applications\nIndustrial University of Ho Chi Minh City, Vietnam, June 12–22, 2023. Certificate\nCIMPA Research School on Group Actions in Arithmetic and Geometry\nGadjah Mada University, Indonesia, February 17–28, 2020. Certificate\nWorkshop on Commutative Algebra\nTon Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017"
-  },
-  {
-    "objectID": "academic.html#talks",
-    "href": "academic.html#talks",
-    "title": "Academic Activities",
-    "section": "Talks",
-    "text": "Talks\n\nTo be updated…"
-  },
-  {
-    "objectID": "honors.html",
-    "href": "honors.html",
-    "title": "Honors & Awards",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nam Hoai Le",
     "section": "",
-    "text": "2024: Fully Funded Doctoral Fellowship, Florida Atlantic University.\n\n2019: Recognized for academic excellence as one of the top-performing students in the Mathematics Department, Spring Semester, 4th Year, Ho Chi Minh University of Education.\n\n2018: Certificate in Scientific Research, Mathematics Department, Ho Chi Minh University of Education."
+    "text": "My name is Nam Hoai Le (Lê Hoài Nam in Vietnamese). I am currently a Ph.D. student in the Department of Mathematics and Statistics at Florida Atlantic University.\nMy research interests lie in the area of number theory, particularly algebraic number theory and its applications in Cryptography and Coding theory. Specific topics include, but are not limited to:\n\nLattice-based cryptography\n\nAlgebraic number theory\n\n\n  \n  \n  \n  \n  \n\n\n\n\nLatest Updates\n\n\n\n\n\n\n\n\nDate\nNews\n\n\n\n\nOctober 12, 2025\nAttended Applied Algebra Days Workshop at Florida Atlantic University.\n\n\nSeptember 22, 2025\nAttended Preliminary Arizona Winter School 2025.\n\n\nSeptember 2, 2025\nPassed the Analysis Qualifying Exam.\n\n\nAugust 18–29, 2025\nParticipated in the Graduate Workshop on Linear Algebra over Finite Fields & Applications at Brown University.\n\n\nJune 16–27, 2025\nParticipated in the Rethinking Number Theory 6 (RNT 6) Workshop online.\n\n\n\n\nSee all updates\n\n\nContact\nIf you would like to discuss a potential collaboration, please feel free to email me.\n\n\n\n\n\n\n📧 Email:\n\n\n\nnamhoai12to2 [at] gmail [dot] com\nnamle2024 [at] fau [dot] edu\n\n\n\n\n\n\n\n\n📍 Address:\n\n\n\nDepartment of Mathematics and Statistics\nFlorida Atlantic University\n777 Glades Rd, Boca Raton, FL 33431, USA"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "All Updates",
+    "objectID": "posts/academic/frou.html",
+    "href": "posts/academic/frou.html",
+    "title": "My a Post",
     "section": "",
-    "text": "Date\nNews\n\n\n\n\nSeptember 22, 2025\nAttended Preliminary Arizona Winter School 2025.\n\n\nSeptember 2, 2025\nPassed the Analysis Qualifying Exam.\n\n\nAugust 18–29, 2025\nParticipated in the Graduate Workshop on Linear Algebra over Finite Fields & Applications at Brown University.\n\n\nJune 16–27, 2025\nParticipated in the Rethinking Number Theory 6 (RNT 6) Workshop online.\n\n\nJanuary 22, 2025\nPassed the Algebra Qualifying Exam.\n\n\nAugust 17, 2024\nStarted the Ph.D. program at FAU."
+    "text": "Đây là hình minh họa:\n\n\n\n\nMặt trời lặn\n\n\n\nBạn thấy đẹp không?"
   },
   {
-    "objectID": "posts/academic/index.html",
-    "href": "posts/academic/index.html",
-    "title": "Academic Writings",
-    "section": "",
-    "text": "Welcome to the Academic section of my blog.\nHere I share notes, reflections, and insights related to mathematics, research, academic writing, and study strategies.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nMy a Post\n\n\nzzzz\n\n\n\n\n\nMay 25, 2025\n\n\n\n\n\n\n\nMy third Post\n\n\nhmm\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\nWell-Roundedness of Ideal Lattices Using SageMath\n\n\nExploring methods to test well-roundedness of ideal lattices with SageMath and Pari/GP.\n\n\n\n\n\nMay 15, 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html",
-    "href": "posts/academic/WRness_of_IdealLattice_Sage.html",
-    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
-    "section": "",
-    "text": "In this post, I will show how to check whether an ideal lattice is well-rounded (WR) using SageMath. We will review the necessary mathematical background, the relevant theory, and provide practical SageMath code examples to illustrate the process."
-  },
-  {
-    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html#lattice",
-    "href": "posts/academic/WRness_of_IdealLattice_Sage.html#lattice",
-    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
-    "section": "Lattice",
-    "text": "Lattice\nLet \\(B=\\{e_1,\\cdots,e_m\\}\\) be a set of linear independent vectors in \\(\\mathbb{R}^n\\) (\\(m\\le n\\)). The set \\[\n\\begin{align}\nL = \\left\\{\\sum_{i=1}^m a_ie_i\\Bigg| a_i\\in \\mathbb{Z} \\right\\}\n\\end{align}\n\\] is called the lattice of \\(\\mathbb{R}^n\\) of rank \\(m\\). The set \\(B\\) is called the basis of \\(L\\). Furthermore, we say \\(L\\) is a full rank lattice if \\(m=n\\).\nThe minimal length of \\(L\\) is defined by \\[\n\\lambda_1(L) = \\min\\{\\|x\\|^2: x\\in L\\setminus \\{0\\}\\}\n\\] where \\(\\|\\cdot\\|\\) denotes the Euclidean norm on \\(\\mathbb{R}^n\\). The set of shortest vectors of \\(L\\) is \\[S(L):= \\{x\\in L:\\|x\\|^2 = \\lambda_1(L)\\}\n\\]\nA lattice \\(L\\) of dimension \\(n\\) is said to be well-rounded (WR) if the set \\(S(L)\\) contains \\(n\\) linearly independence vectors.\nFurthermore, two lattices \\(L_1\\) and \\(L_2\\) are called similar if there exist an \\(n\\times n\\) real orthogonal matrix \\(O\\) and a non real zero constant \\(\\alpha\\) so that \\(L_1 = \\alpha O L_2\\)."
-  },
-  {
-    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html#number-field",
-    "href": "posts/academic/WRness_of_IdealLattice_Sage.html#number-field",
-    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
-    "section": "Number field",
-    "text": "Number field\nLet \\(K\\) be a number field, i.e., a finite extension of \\(\\mathbb{Q}\\). Since \\(\\mathbb{Q}\\) is perfect, the extension \\(K/\\mathbb{Q}\\) is separable. Thus, every number field is a finite separable extension of \\(\\mathbb{Q}\\). By the Primitive Element Theorem, \\(K\\) is a simple extension, so there exists \\(\\alpha \\in K\\) such that \\(K = \\mathbb{Q}(\\alpha)\\). Since \\(K/\\mathbb{Q}\\) is finite, \\(\\alpha\\) is algebraic over \\(\\mathbb{Q}\\).\nMoreover, there exists a non-zero \\(c \\in \\mathbb{Z}\\) such that \\(c\\alpha = \\theta\\), where \\(\\theta\\) is an algebraic integer. Hence, \\[K = \\mathbb{Q}(\\alpha) = \\mathbb{Q}(\\theta).\n\\]\nLet \\(m_{\\theta,\\mathbb{Q}}(x)\\) be the minimal polynomial of \\(\\theta\\) over \\(\\mathbb{Q}\\) of degree \\(n\\), and let \\(\\theta_1, \\dots, \\theta_n\\) (with \\(\\theta = \\theta_1\\)) denote its distinct roots in \\(\\mathbb{C}\\) (all roots are distinct because of the separability of \\(K\\)). Then there are exactly \\(n\\) distinct field embeddings (monomorphisms) \\(\\sigma_i: K \\to \\mathbb{C}\\) \\((i = 1, \\dots, n)\\) such that \\(\\sigma_i(\\theta) = \\theta_i\\).\nWe observe that \\(\\sigma_i(K) \\subseteq \\mathbb{R}\\) if and only if \\(\\sigma_i(\\theta) \\in \\mathbb{R}\\). In this case, \\(\\sigma_i\\) is said to be real; otherwise, it is called complex.\nSince complex conjugation \\(\\tau: \\mathbb{C} \\to \\mathbb{C}\\) is a field automorphism, the composition \\[\n\\overline{\\sigma}_i := \\tau \\circ \\sigma_i: K \\to \\mathbb{C} \\to \\mathbb{C}\n\\] defined by \\(\\overline{\\sigma}_i(\\theta) = \\overline{\\sigma_i(\\theta)}\\), is also a field embedding. Thus, \\(\\overline{\\sigma}_i = \\sigma_j\\) for some \\(1 \\leq j \\leq n\\).\nMoreover, since \\(\\tau(x) = x\\) if and only if \\(x \\in \\mathbb{R}\\) and \\(\\overline{\\overline{\\sigma}_i} = \\sigma_i\\), we have that \\(\\sigma_i\\) is real if and only if \\(\\sigma_i = \\overline{\\sigma}_i\\). In particular, the complex embeddings always occur in conjugate pairs.\nTherefore, if \\(r_1\\) is the number of real embeddings and \\(2r_2\\) is the number of complex embeddings (which come in pairs), then the total number of embeddings is \\(n = r_1 + 2r_2\\). Let’s denote \\[\n\\sigma_1\\cdots, \\sigma_{r_1},\\tau_{1},\\overline{\\tau}_1,\\cdots, \\tau_{r_2},\\overline{\\tau}_{r_2}\n\\] are all monomorphisms from \\(K\\to \\mathbb{C}\\).\nFurthermore, the direct product \\(\\mathbb{R}^{r_1} \\times \\mathbb{C}^{r_2}\\) is a vector space over \\(\\mathbb{R}\\) of dimension \\(r_1 + 2r_2 = n\\) (this is also a ring with componentwise operations i.e., \\(\\mathbb{R}^{r_1} \\times \\mathbb{C}^{r_2}\\) is an \\(\\mathbb R\\)-algebra). We define a map: \\[\n\\begin{align}\n\\sigma:&\\ K\\to \\mathbb{R}^{r_1}\\times \\mathbb{C}^{r_2}\\\\\n&x\\mapsto (\\sigma_1(x),\\cdots,\\sigma_{r_1}(x),\\tau_1(x),\\cdots,\\tau_{r_2}(x))\n\\end{align}\n\\]\nThis is a \\(\\mathbb Q\\)-algebra homomorphism, so \\(\\sigma\\) is either the zero map or injective. Since \\(\\sigma(1) = (1, \\dots, 1) \\neq 0\\), \\(\\sigma\\) must be injective. In other words, this map embeds \\(K\\) into \\(\\mathbb{R}^{r_1} \\times \\mathbb{C}^{r_2}\\) as a subring.\nNow suppose we view \\(\\mathbb{R}^{r_1} \\times \\mathbb{C}^{r_2}\\cong \\mathbb R^n\\) as a vector space over \\(\\mathbb R\\). Since each \\(\\tau_i(x) \\in \\mathbb{C}\\) can be written as \\(\\operatorname{Re}(\\tau_i(x)) + i\\,\\operatorname{Im}(\\tau_i(x))\\), we can write the map above as \\[\n\\begin{align}\n\\sigma:&\\ K\\to \\mathbb{R}^{n}\\\\\n&x\\mapsto (\\sigma_1(x),\\cdots,\\sigma_{r_1}(x),\\operatorname{Re}(\\tau_1(x)),\\operatorname{Im}(\\tau_1(x)),\\cdots,\\operatorname{Re}(\\tau_{r_2}(x)),\\operatorname{Im}(\\tau_{r_2}(x)))\n\\end{align}\n\\]\nNote that this \\(\\sigma\\) is an \\(\\mathbb{R}\\)-vector space homomorphism. The following results still hold even when we view \\(\\sigma\\) as an \\(\\mathbb{R}\\)-vector space homomorphism.\nTheorem: The image of finite generated subgroup of \\((K,+)\\) under \\(\\sigma\\) is a lattice in \\(\\mathbb{R}^n\\). In particular, if \\(G = \\langle\\omega_1,\\cdots,\\omega_m\\rangle_{\\mathbb{Z}}\\subseteq (K,+)\\), then \\(\\sigma(G)\\) is a lattice with generators \\(\\{\\sigma(\\omega_1),\\cdots,\\sigma(\\omega_m)\\}\\)."
-  },
-  {
-    "objectID": "posts/academic/WRness_of_IdealLattice_Sage.html#ideal-lattices",
-    "href": "posts/academic/WRness_of_IdealLattice_Sage.html#ideal-lattices",
-    "title": "Well-Roundedness of Ideal Lattices Using SageMath",
-    "section": "Ideal Lattices",
-    "text": "Ideal Lattices\nUsing the above theorem, we have that if \\(I\\) is an fractional ideal of \\(K\\), then \\(\\sigma(I)\\) is a full rank lattice of \\(\\mathbb{R}^n\\). And if \\(I\\) is an integral ideal of \\(\\mathcal{O}_K\\) then \\(\\sigma(I)\\) is a sublattice of \\(\\sigma(\\mathcal{O}_K)\\) of finite index . In particular, this index equals to \\[\n[ \\sigma(\\mathcal{O}_K): \\sigma(I)] = [\\mathcal{O}_K : I] = N(I)\n\\] where \\(N(\\cdot)\\) denotes the norm of the ideal \\(I\\) in \\(\\mathcal{O}_K\\).\nThese \\(\\sigma(I)\\) are called ideal lattices. Since \\(\\sigma\\) is an embedding, we often identify the ideal \\(I\\) with its image \\(\\sigma(I)\\) and thus refer to \\(I\\) itself as an ideal lattice."
-  },
-  {
-    "objectID": "posts/life/second.html",
-    "href": "posts/life/second.html",
-    "title": "My se Post",
+    "objectID": "posts/academic/third.html",
+    "href": "posts/academic/third.html",
+    "title": "My third Post",
     "section": "",
     "text": "We have \\(x^2=3\\iff x=\\pm 2\\)"
+  },
+  {
+    "objectID": "posts/life/index.html",
+    "href": "posts/life/index.html",
+    "title": "Daily Life",
+    "section": "",
+    "text": "Welcome to the Daily Life section of my blog.\nOutside of academics, I enjoy playing sports—especially soccer. I also love watching matches and analyzing soccer tactics; it’s something I find truly fascinating.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nMy se Post\n\n\nhmm\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Publications\n\nThe exceptional set in Cassel’s theorem on small cyclotomic integers, with Kiran Kedlaya, Jorge Mello, Antoine Leudière, Jitendra Bajpai, Meghan Lee, and Srijan Das, submitted.\narXiv\nWell-rounded twists of the ring of integrers of cyclic cubic fields, with Dat T. Tran, Ha T. N. Tran and Dave Karpuk, submitted.\narXiv\nWell-Rounded ideal lattices of cyclic cubic and quartic fields, with Dat T. Tran and Ha T. N. Tran, Communications in Mathematics, Vol. 31, Issue 2 (Oct 18, 2023).\narXiv Journal\nWell-rounded twists of ideal lattices from imaginary quadratic fields, with Dat T. Tran and Ha T. N. Tran, Journal of Algebra and Its Applications, Vol. 21, No. 07, 2250133 (2022).\narXiv Journal\n\n\n\n\nProjects\n\nWell-Rounded ideal lattices of biquadratic and pure cubic fields\nJuly 2025 – at present with Dat T. Tran, Morgan Smith, and Ha T. N. Tran\nThe exceptional set in Cassels’s theorem on smallcyclotomic integers\nJune 2025 – Octobor 2025 with with Jorge Mello, Antoine Leudière, Jitendra Bajpai, Meghan Lee, and Srijan Das; under the supervision of Prof. Kiran Kedlaya.\nWell-rounded Twists of Lattices in \\(\\mathbb{R}^3\\)\nJuly 2023 – June 2025 with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.\nWell-rounded ideals of cubic and quartic fields\nJune 2021 – April 2023 with Dat T. Tran and Ha T. N. Tran.\nOn norm Euclidean tri-quadratic fields\nMay 2020 – February 2021 with Amy Feaver, Dat T. Tran, and Ha T. N. Tran.\nWell-rounded twists of quadratic fields\nJanuary 2020 – June 2020 with Dat T. Tran and Ha T. N. Tran."
   },
   {
     "objectID": "teaching.html#florida-atlantic-university",
     "href": "teaching.html#florida-atlantic-university",
     "title": "Teaching",
     "section": "Florida Atlantic University",
-    "text": "Florida Atlantic University\n\nTeaching\n\n\n\n\n\n\nMGF 1130 - Math Thinking in Context 1\n\n\n\nSemester: Fall 2025\n\n\n\n\n\nTutor\nI am currently a GTA in the Mathematical Department, where I have the opportunity to tutor undergraduate students in various subjects. Teaching helps me deepen my understanding, as it requires clear and careful explanations. It is also one of my passions and was part of my major during my bachelor’s studies.\nCourses I have tutored include:\n\nMAC 1105 – College Algebra\nMAS 2104 – Matrix Theory\nMAC 1147 – Precalculus Algebra and Trigonometry\nMAC 2233 – Methods of Calculus\nMAD 2104 - Discrete Mathematics\nMAT 1103 – Intermediate Algebra\nMAC 2311 – Calculus with Analytic Geometry 1\nMAC 2312 – Calculus with Analytic Geometry 2\nMAC 2313 – Calculus with Analytic Geometry 3\n\n\n\nGrader\n\nMAC 2312 – Calculus with Analytic Geometry 2"
+    "text": "Florida Atlantic University\n\nTeaching\n\n\n\nMGF 1130 - Math Thinking in Context 1 (Fall 2025)\n\n\n\nTutor\nI am currently a GTA in the Mathematical Department, where I have the opportunity to tutor undergraduate students in various subjects. Teaching helps me deepen my understanding, as it requires clear and careful explanations. It is also one of my passions and was part of my major during my bachelor’s studies.\nCourses I have tutored include:\n\nMAC 1105 – College Algebra\nMAS 2104 – Matrix Theory\nMAC 1147 – Precalculus Algebra and Trigonometry\nMAC 2233 – Methods of Calculus\nMAD 2104 - Discrete Mathematics\nMAT 1103 – Intermediate Algebra\nMAC 2311 – Calculus with Analytic Geometry 1\nMAC 2312 – Calculus with Analytic Geometry 2\nMAC 2313 – Calculus with Analytic Geometry 3\n\n\n\nGrader\n\nMAC 2312 – Calculus with Analytic Geometry 2"
   },
   {
     "objectID": "teaching.html#ho-chi-minh-city-university-of-science",
