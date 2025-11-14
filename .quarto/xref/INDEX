@@ -49,5 +49,17 @@
   },
   "news/2025-08-01-florida-algebra.qmd": {
     "2025-08-01-florida-algebra.html": "eff6fe04"
+  },
+  "research.qmd": {
+    "research.html": "4a3ea6b1"
+  },
+  "syllabus/2025/MGF1130.qmd": {
+    "MGF1130.html": "a3319e75"
+  },
+  "syllabus/2023/AlgorithmicNT.qmd": {
+    "AlgorithmicNT.html": "30f59048"
+  },
+  "syllabus/2024/AlgorithmicNT.qmd": {
+    "AlgorithmicNT.html": "05175f5f"
   }
 }

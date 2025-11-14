@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 ---
 :::{.text-center}
 [View CV](files/CV_NamLe.pdf){.btn .btn-info target="_blank" style="margin-bottom: 0.5em;"}  
-<span style="color:gray; font-size: 90%;">(updated August 23, 2025)</span>
+<span style="color:gray; font-size: 90%;">(updated Oct 1, 2025)</span>
 :::
 
 
@@ -14,11 +14,11 @@ title: "Curriculum Vitae"
 
 -  Dec 2019 – Dec 2022, **M.S. in Algebra and Number Theory**, [Ho Chi Minh City University of Science](https://en.hcmus.edu.vn/){target="_blank"}    
    Thesis: *Well-rounded twists of ideal lattices from imaginary quadratic fields*  
-   Supervisor: Assoc. Prof. Ha Tran, Dr. Le Van Luyen
+   Supervisor: Assoc. Prof. [Ha Thanh Nguyen Tran](https://sites.google.com/site/hatrannguyenthanh/home){.people-link target="_blank"}, Dr. Le Van Luyen
 
 - Sep 2015 – Jun 2019, **B.S. in Mathematics Teacher Education**, [Ho Chi Minh City University of Education](https://hcmue.edu.vn/en/){target="_blank"}  
    Thesis: *Spectrum of a ring*  
-   Supervisor: Assoc. Prof. My Vinh Quang
+   Supervisor: Assoc. Prof. [My Vinh Quang](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=20792){target="_blank"}
 
 -  Aug 2012 – Jun 2015, **Class Specialized in Mathematics**, Luong The Vinh High School for the Gifted
 

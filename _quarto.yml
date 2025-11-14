@@ -1,5 +1,6 @@
 project:
   type: website
+  
 
 website:
 
@@ -22,8 +23,8 @@ website:
     left:
       - text: "About"
         href: index.qmd
-      - text: "Publications"
-        href: publications.qmd
+      - text: "Research"
+        href: research.qmd
       - text: "Teaching"
         href: teaching.qmd
       - text: "Academic Activities"

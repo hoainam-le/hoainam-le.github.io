@@ -14,7 +14,11 @@ pre.sourceCode.sage, code.sourceCode.sage {
 }
 
 a.people-link {  
-  color: #7a887a;
+  color: #080807;
+}
+
+a.caslte-link {  
+  color: #5c7b5c;
 }
 
 a.internal-link {
@@ -54,4 +58,36 @@ a.photo-link {
 .news-table td {
   padding-top: 0.5em;
   padding-bottom: 0.5em;  /* tăng khoảng cách trên và dưới text */
+}
+
+
+/* Chỉ canh giữa tiêu đề chính ở đầu trang */
+h1 {
+  text-align: center;
+}
+
+
+
+/* Giữ nguyên các tiêu đề cấp 2 trở xuống */
+h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+
+
+
+.course-table table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #000; /* viền ngoài đậm */
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #000;   /* viền từng ô */
+  padding: 6px 10px;        /* dễ đọc */
+  vertical-align: top;      /* canh nội dung top rất đẹp */
+}
+
+.course-table th {
+  background-color: #f2f2f2;  /* giúp header nổi bật, tùy chọn */
 }

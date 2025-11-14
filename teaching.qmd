@@ -3,42 +3,29 @@ title: "Teaching"
 ---
 <br>
 
-## Florida Atlantic University
+## Florida Atlantic University  
+
+I am currently a GTA in the Mathematical Department, where I have the opportunity to teach and tutor undergraduate students in various subjects. Teaching helps me deepen my understanding, as it requires clear and careful explanations. It is also one of my passions and was part of my minor during my bachelor’s studies.
 
 ### Teaching
 
-::: {.callout-tip appearance="simple"}
-### MGF 1130 - Math Thinking in Context 1
-**Semester:** Fall 2025  
-<!-- [View Syllabus](https://fau.simplesyllabus.com/api2/doc-pdf/uy3yxx2a3/Fall-2025-1-Full-Term-MGF-1130-005-Math-Thinking-in-Context-1.pdf?locale=en-US){.btn-pdf target="_blank"} -->
-:::
+- MGF 1130 - [Math Thinking in Context 1](syllabus\2025\MGF1130.qmd){.internal-link target="_blank"} (Fall 2025)
 
 
 
 ### Tutor
 
-I am currently a GTA in the Mathematical Department, where I have the opportunity to tutor undergraduate students in various subjects. Teaching helps me deepen my understanding, as it requires clear and careful explanations. It is also one of my passions and was part of my major during my bachelor’s studies.
-
-Courses I have tutored include:
-
-- MAC 1105 – College Algebra
-- MAS 2104 – Matrix Theory
-- MAC 1147 – Precalculus Algebra and Trigonometry
-- MAC 2233 – Methods of Calculus
-- MAD 2104 - Discrete Mathematics
-- MAT 1103 – Intermediate Algebra
-- MAC 2311 – Calculus with Analytic Geometry 1
-- MAC 2312 – Calculus with Analytic Geometry 2
-- MAC 2313 – Calculus with Analytic Geometry 3
+- Tutored students across a range of undergrad-level mathematics courses at [Math Learning Center](https://www.fau.edu/mlc/){target="_blank"} (MLC)
 
 
 ### Grader
-- MAC 2312 – Calculus with Analytic Geometry 2
+
+- MAC 2312 – Calculus with Analytic Geometry 2 (Fall 2024, Spring 2025)
 
 
 
-## Ho Chi Minh City University of Science
- - Algorithmic Number Theory, Spring 2023
+## Ho Chi Minh City University of Science  
+ - MTH10324 - [Algorithmic Number Theory](syllabus\2024\AlgorithmicNT.qmd){.internal-link target="_blank"} (Spring 2024)
 
 
  

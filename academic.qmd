@@ -6,17 +6,21 @@ title: "Academic Activities"
 
 ## Schools and Workshops Attended
 
+- **[Applied Algebra Days Workshop](https://www.usf-crypto.org/aad-2-program/){target="_blank"}**  
+  Florida Atlantic University (FAU), October 11–12, 2025
+
 - **[Preliminary Arizona Winter School 2025: Mathematical cryptography and algorithms in number theory](https://swc-math.github.io/aws/2026/2026PAWS.html){target="_blank"}**  
-  Online, September 22nd — November 21st, 2025 _(upcoming)_
+  Online, September 22nd — November 21st, 2025
 
 - **[Graduate Workshop on Linear Algebra over Finite Fields & Applications](https://icerm.brown.edu/program/topical_workshop/tw-25-laffa){target="_blank"}**  
-  ICERM, Brown University, USA, August 18–29, 2025 _(upcoming)_
+  ICERM, Brown University, USA, August 18–29, 2025   
+  [All Participants](images/laffa.jpg){.photo-link target="_blank"} 
 
 - **[Rethinking Number Theory 6 (RNT 6) Workshop](https://sites.google.com/view/rethinkingnumbertheory/home?authuser=0){target="_blank"}** 
   - Online, June 16–27, 2025.
-  - Group project: [The exceptional set in Cassels's theorem on smallcyclotomic integers 🏰](https://sites.google.com/view/rethinkingnumbertheory/projects?authuser=0#h.kgmqw9mgk2ed){.people-link target="_blank"}.
-  - Project Leader: [Kiran Kedlaya](https://kskedlaya.org/){.people-link target="_blank"}.  
-  <!-- [Team Photo](images/Team3.png){.photo-link target="_blank"} | [All Participants](images/RNT6.png){.photo-link target="_blank"} -->
+  - Group project: [The exceptional set in Cassels's theorem on smallcyclotomic integers 🏰](https://sites.google.com/view/rethinkingnumbertheory/projects?authuser=0#h.kgmqw9mgk2ed){.caslte-link target="_blank"}.
+  - Project Leader: Prof. [Kiran Kedlaya](https://kskedlaya.org/){.people-link target="_blank"}.  
+  [All Participants](images/RNT6.png){.photo-link target="_blank"} |  [Team Photo](images/Team3.png){.photo-link target="_blank"}
 
 
 - **[A CIMPA School on Applied Number Theory](http://www.rnta.eu/HCMC2024/index.html){target="_blank"}**  
@@ -32,8 +36,9 @@ title: "Academic Activities"
   Ton Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017
 
 
-<!-- ### Contributed Talks
-- ...
+<!-- ### Contributed Talks -->
+<!-- - ... -->
 
-### Invited Talks
-- _(upcoming plans can be listed here, or simply leave a note like "To be updated...")_ -->
+## Talks
+
+- _To be updated..._

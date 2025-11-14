@@ -7,7 +7,7 @@ title: "Nam Hoai Le"
 :::{.grid .gap-4 .align-items-center}
 
 ::: {.g-col-12 .g-col-md-4 .text-center .order-1 .order-md-2}
-<img src="images/namle.jpg" alt="Nam Hoai Le" 
+<img src="images/NamHLe.jpg" alt="Nam Hoai Le" 
      style="width: 100%; max-width: 260px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 10px auto;" />
 
 <!-- Taken at ... -->
@@ -66,11 +66,11 @@ My research interests lie in the area of number theory, particularly algebraic n
 ::: {.news-table}
 | Date       | News |
 |-----|---------------|
+| October 12, 2025       | Attended *Applied Algebra Days Workshop* at Florida Atlantic University. |
+| September 22, 2025       | Attended *Preliminary Arizona Winter School 2025*. |
+| September 2, 2025       | Passed the *Analysis Qualifying Exam*. |
 | August 18–29, 2025     | Participated in the *Graduate Workshop on Linear Algebra over Finite Fields & Applications* at Brown University. |
 | June 16–27, 2025       | Participated in the *Rethinking Number Theory 6 (RNT 6) Workshop* online. |
-| January 22, 2025       | Passed the Algebra Qualifying Exam. |
-| August 17, 2024        | Started the Ph.D. program at FAU. |
-
 :::
  
 
@@ -92,7 +92,7 @@ namle2024 [at] fau [dot] edu
 
 ::: {.callout-note appearance="simple"}
 ### 📍 **Address**:   
-Department of Mathematics and Statistics  
+Department of Mathematics and Statistics   
 Florida Atlantic University  
 777 Glades Rd, Boca Raton, FL 33431, USA
 :::
