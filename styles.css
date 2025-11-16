@@ -14,7 +14,7 @@ pre.sourceCode.sage, code.sourceCode.sage {
 }
 
 a.people-link {  
-  color: #080807;
+  color: #5a72e8;
 }
 
 a.caslte-link {  
@@ -22,11 +22,11 @@ a.caslte-link {
 }
 
 a.internal-link {
-  color: #0077cc;
+  color: #bf1d1d;
 }
 
 a.photo-link {  
-  color: darkorange;
+  color: rgb(172, 111, 36);
 }
 
 /* Nút PDF (outline style) */
