@@ -26,9 +26,9 @@ bibliography: ../../references.bib
 | **6** | 11.1<br>11.2<br>11.3 | Quadratic residues<br>Legendre symbol<br>Jacobi symbol | 11.1: 4, 6, 8, 9, 10, 13, 20, 41<br> 11.2: 1 | Exercises + coding practice |
 | **7** | — | Midterm review<br>90-min Midterm exam | — | Lab 4 — Object-Oriented Programming |
 | **8** | 6.2<br>11.4 | Primality tests:<br>Deterministic — trivial method<br>Miller–Rabin<br>Euler pseudoprimes<br>Solovay–Strassen |Design and implement the corresponding primality-testing algorithms | Lab 5 — File I/O |
-| **9** | 9.5<br>3.6<br>4.6<br>6.1<br>12.5 | Integer factorization:<br>Pollard Rho<br>Pollard $p−1$<br>Continued fractions<br>Continued-fraction–based factorization<br>Number Field Sieve | Design and implement the corresponding integer factorization algorithms | Lab 6 — Modules |
+| **9** | 9.5<br>3.6<br>4.6<br>6.1<br>12.5 | Integer factorization:<br>Pollard's Rho<br>Pollard $p−1$<br>Continued fractions<br>Continued-fraction–based factorization<br>Number Field Sieve | Design and implement the corresponding integer factorization algorithms | Lab 6 — Modules |
 | **10** | 8.1<br>8.2<br>8.3<br>8.4 <br>10.2| Caesar cipher<br>RSA<br>ElGamal | Implement encryption and decryption algorithms for RSA and ElGamal.| Exercises + practice |
-| **11** | — | Discrete Logarithm Problem:<br>  Baby-Step Giant-Step<br>Pollard Rho<br>Index calculus | Design and implement the corresponding discrete logarithm algorithms | Lab 7 — Packages |
+| **11** | — | Discrete Logarithm Problem:<br>  Baby-Step Giant-Step<br>Pollard's Rho<br>Index calculus | Design and implement the corresponding discrete logarithm algorithms | Lab 7 — Packages |
 | **12** | — | Review Midterm<br>Final exam prep | — | Lab 8 — Exceptions |
 :::
 \* Further Reading
