@@ -6,7 +6,7 @@ description: "Exploring methods to test well-roundedness of ideal lattices with 
 date: 2025-05-15
 date-modified: 2025-05-20
 draft: false
-bibliography: references.bib
+bibliography: ../../references.bib
 
 # jupyter: sage
 # format:

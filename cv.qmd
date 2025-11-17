@@ -10,15 +10,15 @@ title: "Curriculum Vitae"
 
 ## 🎓 Education
 
--  Aug 2024 – Present, **Ph.D. Student in Mathematics**, [Florida Atlantic University](https://www.fau.edu/){target="_blank"}  
+-  Aug 2024 – Present, **Ph.D. Student in Mathematics**, Florida Atlantic University      
 
--  Dec 2019 – Dec 2022, **M.S. in Algebra and Number Theory**, [Ho Chi Minh City University of Science](https://en.hcmus.edu.vn/){target="_blank"}    
-   Thesis: *Well-rounded twists of ideal lattices from imaginary quadratic fields*  
-   Supervisor: Assoc. Prof. [Ha Thanh Nguyen Tran](https://sites.google.com/site/hatrannguyenthanh/home){.people-link target="_blank"}, Dr. Le Van Luyen
+-  Dec 2019 – Dec 2022, **M.S. in Algebra and Number Theory**, Ho Chi Minh City University of Science     
+   Thesis: *Well-rounded twists of ideal lattices from imaginary quadratic fields*    
+   Supervisor: Assoc. Prof. Ha Thanh Nguyen Tran, Dr. Le Van Luyen  
 
-- Sep 2015 – Jun 2019, **B.S. in Mathematics Teacher Education**, [Ho Chi Minh City University of Education](https://hcmue.edu.vn/en/){target="_blank"}  
-   Thesis: *Spectrum of a ring*  
-   Supervisor: Assoc. Prof. [My Vinh Quang](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=20792){target="_blank"}
+- Sep 2015 – Jun 2019, **B.S. in Mathematics Teacher Education**, Ho Chi Minh City University of Education     
+   Thesis: *Spectrum of a ring*     
+   Supervisor: Assoc. Prof. My Vinh Quang   
 
 -  Aug 2012 – Jun 2015, **Class Specialized in Mathematics**, Luong The Vinh High School for the Gifted
 

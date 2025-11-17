@@ -6,10 +6,10 @@ title: "Research"
 ### Publications
 
 1. **The exceptional set in Cassel's theorem on small cyclotomic integers**, with Kiran Kedlaya, Jorge Mello, Antoine Leudière, Jitendra Bajpai, Meghan Lee, and Srijan Das, submitted.   
-[arXiv](https://arxiv.org/pdf/2510.20435){.btn-pdf target="_blank"}
+[arXiv](https://arxiv.org/pdf/2510.20435){.btn-pdf target="_blank"}  
 
-1. **Well-rounded twists of the ring of integrers of cyclic cubic fields**, with Dat T. Tran, Ha T. N. Tran and Dave Karpuk, submitted.    
-[arXiv](http://arxiv.org/abs/2508.17123){.btn-pdf target="_blank"}
+1. **Well-rounded twists of the ring of integrers of cyclic cubic fields**, with Dat T. Tran, Ha T. N. Tran, and Dave Karpuk, submitted.    
+[arXiv](http://arxiv.org/abs/2508.17123){.btn-pdf target="_blank"}  
 
 1. **Well-Rounded ideal lattices of cyclic cubic and quartic fields**, with Dat T. Tran and Ha T. N. Tran, _Communications in Mathematics_, Vol. 31, Issue 2 (Oct 18, 2023).  
 [arXiv](https://arxiv.org/abs/2303.16968){.btn-pdf target="_blank"} [Journal](https://cm.episciences.org/12425){.btn-pdf target="_blank"}
@@ -27,7 +27,7 @@ title: "Research"
   <span style="color:gray">July 2025 – at present</span> with Dat T. Tran, Morgan Smith, and Ha T. N. Tran
 
 - **The exceptional set in Cassels’s theorem on smallcyclotomic integers**   
-  <span style="color:gray">June 2025 – Octobor 2025</span> with with Jorge Mello, Antoine Leudière, Jitendra Bajpai, Meghan Lee, and Srijan Das; under the supervision of Prof. Kiran Kedlaya.
+  <span style="color:gray">June 2025 – October 2025</span> with with Jorge Mello, Antoine Leudière, Jitendra Bajpai, Meghan Lee, and Srijan Das; under the supervision of Prof. Kiran Kedlaya.
 
 - **Well-rounded Twists of Lattices in $\mathbb{R}^3$**  
   <span style="color:gray">July 2023 – June 2025</span> with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.
