@@ -1,0 +1,70 @@
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<div id="particles-js"></div>
+
+<style>
+  #particles-js {
+    position: fixed;      /* Cố định vị trí */
+    bottom:  50px;            /* Dính đáy */
+    right: 20px;             /* Dính phải */
+    width: 300px;         /* Chiều rộng vùng hiệu ứng */
+    height: 300px;        /* Chiều cao vùng hiệu ứng */
+    z-index: -1;          /* Nằm dưới nội dung để không che chữ */
+    opacity: 0.6;         /* Mờ mờ thôi cho đỡ chói */
+    /* Tạo hiệu ứng mờ dần ở biên để không bị gãy khúc (optional) */
+    mask-image: linear-gradient(to top left, black 50%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to top left, black 50%, transparent 100%);
+  }
+</style>
+
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 25,       /* Giảm số lượng hạt xuống (vì khung nhỏ) */
+        "density": {
+          "enable": false  /* Tắt mật độ tự động để kiểm soát số hạt */
+        }
+      },
+      "color": { "value": "#5a5a5a" }, /* Màu xám đậm cho dễ nhìn */
+      "shape": { "type": "circle" },
+      "opacity": {
+        "value": 0.5,
+        "random": false
+      },
+      "size": {
+        "value": 3,
+        "random": true
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#5a5a5a",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 2,        /* Tốc độ chậm rãi */
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "bounce", /* Chạm cạnh thì nảy lại */
+        "bounce": false
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": { "enable": true, "mode": "grab" }, /* Rê chuột vào nó sẽ hút lại */
+        "onclick": { "enable": true, "mode": "push" }
+      },
+      "modes": {
+        "grab": { "distance": 140, "line_linked": { "opacity": 1 } }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
+
+

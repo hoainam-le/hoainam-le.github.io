@@ -1,5 +1,9 @@
 ---
 title: "Nam Hoai Le"
+# about:
+#   template: solana  # Hoặc thử 'solana' hoặc 'jolla'
+#   image-shape: round  # Ảnh tròn nhìn mềm mại hơn
+#   image-width: 20em
 ---
 
 <br>
@@ -7,7 +11,7 @@ title: "Nam Hoai Le"
 :::{.grid .gap-4 .align-items-center}
 
 ::: {.g-col-12 .g-col-md-4 .text-center .order-1 .order-md-2}
-<img src="images/NamHLe.jpg" alt="Nam Hoai Le" 
+<img src="images/NamHLe2.jpg" alt="Nam Hoai Le" 
      style="width: 100%; max-width: 260px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 10px auto;" />
 
 <!-- Taken at ... -->
@@ -71,13 +75,13 @@ My research interests lie in computational number theory and its applications in
 :::
  
 
-[See all updates](news.qmd){.btn .btn-info target="_blank" style="margin-bottom: 0.5em;"}  
+[See all updates](news.qmd){.btn .btn-outline-danger target="_blank" style="margin-bottom: 0.5em; border-radius: 12px;"}
 
 
 
 
 
-### Contact
+### Contact 
 If you would like to discuss a potential collaboration, please feel free to email me.  
 
 
@@ -100,4 +104,9 @@ Florida Atlantic University
 
 <!-- <span style="color:gray">namle2024 [at] fau [dot] edu</span> -->
 
-
+<!-- 
+<div style="text-align:center;">
+<a href="https://info.flagcounter.com/HsFr">
+<img src="https://s01.flagcounter.com/count2/HsFr/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+</a>
+</div>   -->

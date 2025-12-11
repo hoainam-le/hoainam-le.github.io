@@ -7,9 +7,10 @@ title: "Teaching"
 
 I am currently a GTA in the Mathematical Department, where I have the opportunity to teach and tutor undergraduate students in various subjects. Teaching helps me deepen my understanding, as it requires clear and careful explanations. It is also one of my passions and was part of my minor during my bachelor’s studies.
 
-### Teaching
+### Instructor
 
-- MGF 1130 - [Math Thinking in Context 1](syllabus\2025\MGF1130.qmd){.internal-link target="_blank"} (Fall 2025)
+- MAC 2233 - [Methods of Calculus](syllabus\2026\MAC2233.qmd){.internal-link target="_blank"} (Spring 2026)    
+- MGF 1130 - [Math Thinking in Context 1](syllabus\2025\MGF1130.qmd){.internal-link target="_blank"} (Fall 2025)      
 
 
 
@@ -20,7 +21,7 @@ I am currently a GTA in the Mathematical Department, where I have the opportunit
 
 ### Tutor
 
-- Provided tutoring support for various undergraduate mathematics courses at [Math Learning Center](https://www.fau.edu/mlc/){target="_blank"} (MLC)
+- Fall 2024 – Present: Tutored undergraduate students in various mathematics courses at the [Math Learning Center](https://www.fau.edu/mlc/){target="_blank"} (MLC)
 
 
 

@@ -17,11 +17,11 @@ bibliography: ../../references.bib
 ---
 In this post, I will show how to check whether an ideal lattice is well-rounded (WR) using SageMath. We will review the necessary mathematical background, the relevant theory, and provide practical SageMath code examples to illustrate the process.
 
-# Preliminary
+## Preliminary
 
 Most of what I write here is based on [@stewart2001algebraic], which was also the first book on algebraic number theory that I read.
 
-## Lattice
+### Lattice
 
 Let $B=\{e_1,\cdots,e_m\}$ be a set of linear independent vectors in $\mathbb{R}^n$ ($m\le n$). The set
 $$
@@ -43,7 +43,7 @@ A lattice $L$ of dimension $n$ is said to be _well-rounded (WR)_ if the set $S(L
 
 Furthermore, two lattices $L_1$ and $L_2$ are called _similar_ if there exist an $n\times n$ real orthogonal matrix $O$ and a non real zero constant $\alpha$ so that $L_1 = \alpha O L_2$.
 
-## Number field
+### Number field
 
 Let $K$ be a number field, i.e., a finite extension of $\mathbb{Q}$. Since $\mathbb{Q}$ is perfect, the extension $K/\mathbb{Q}$ is separable. Thus, every number field is a finite separable extension of $\mathbb{Q}$. By the *Primitive Element Theorem*, $K$ is a simple extension, so there exists $\alpha \in K$ such that $K = \mathbb{Q}(\alpha)$. Since $K/\mathbb{Q}$ is finite, $\alpha$ is algebraic over $\mathbb{Q}$. 
 
@@ -94,7 +94,7 @@ Note that this $\sigma$ is an $\mathbb{R}$-vector space homomorphism. The follow
 
 
 
-## Ideal Lattices
+### Ideal Lattices
 
 Using the above theorem, we have that if $I$ is an fractional ideal of $K$, then $\sigma(I)$ is a full rank lattice of $\mathbb{R}^n$. And if $I$ is an integral ideal of $\mathcal{O}_K$ then $\sigma(I)$ is a sublattice of $\sigma(\mathcal{O}_K)$ of finite index . In particular, this index equals to
 $$
@@ -105,7 +105,7 @@ where $N(\cdot)$ denotes the norm of the ideal $I$ in $\mathcal{O}_K$.
 These $\sigma(I)$ are called _ideal lattices_. Since $\sigma$ is an embedding, we often identify the ideal $I$ with its image $\sigma(I)$ and thus refer to $I$ itself as an ideal lattice.
 
 
-# Sagemath
+## Sagemath
 
 
 ```python

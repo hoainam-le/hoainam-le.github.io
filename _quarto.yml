@@ -9,8 +9,8 @@ website:
     right: 
       - icon: github
         href: https://github.com/hoainam-le
-      - icon: twitter
-        href: https://x.com/NamLeHoai97
+      # - icon: twitter
+      #   href: https://x.com/NamLeHoai97
       - icon: facebook
         href: https://www.facebook.com/namhltv/
   
@@ -54,12 +54,16 @@ website:
 
 format:
   html:
+    include-after-body: lattice.html
     page-layout: full
-    theme:
-      light: flatly
-      dark: darkly
+    theme: cosmo
+      # light: cosmo
+      # dark: litera
     css: styles.css
     toc: true
     toc-location: right
 
   
+
+
+

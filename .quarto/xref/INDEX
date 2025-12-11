@@ -1,65 +1,53 @@
 {
   "academic.qmd": {
-    "academic.html": "60cac1b1"
+    "academic.html": "aed9e817"
   },
   "cv.qmd": {
-    "cv.html": "13415390"
+    "cv.html": "f0f17c24"
   },
   "honors.qmd": {
-    "honors.html": "9f44f8e0"
+    "honors.html": "00716e2a"
   },
   "index.qmd": {
-    "index.html": "b01a4bc2"
-  },
-  "posts/academic/frou.qmd": {
-    "frou.html": "fa8f5ac3"
-  },
-  "posts/academic/index.qmd": {
-    "index.html": "295b85e5"
-  },
-  "posts/academic/third.qmd": {
-    "third.html": "58cf851d"
-  },
-  "posts/academic/WRness_of_IdealLattice_Sage.qmd": {
-    "WRness_of_IdealLattice_Sage.html": "ece7f35a"
-  },
-  "posts/life/index.qmd": {
-    "index.html": "0312571d"
-  },
-  "posts/life/second.qmd": {
-    "second.html": "59f5ee27"
-  },
-  "publications.qmd": {
-    "publications.html": "5ef9269b"
-  },
-  "teaching.qmd": {
-    "teaching.html": "e96bfacf"
-  },
-  "useful_links.qmd": {
-    "useful_links.html": "8f0f0bbd"
+    "index.html": "f95eb27f"
   },
   "news.qmd": {
-    "news.html": "1f247de6"
+    "news.html": "c51e9904"
   },
-  "news/2025-05-02-grf-award.qmd": {
-    "2025-05-02-grf-award.html": "3b04d9cd"
+  "posts/academic/frou.qmd": {
+    "frou.html": "d56c18d9"
   },
-  "news/2025-07-15-jnt-paper.qmd": {
-    "2025-07-15-jnt-paper.html": "4e05c8fb"
+  "posts/academic/index.qmd": {
+    "index.html": "92329aea"
   },
-  "news/2025-08-01-florida-algebra.qmd": {
-    "2025-08-01-florida-algebra.html": "eff6fe04"
+  "posts/academic/third.qmd": {
+    "third.html": "1d83a7b7"
+  },
+  "posts/academic/WRness_of_IdealLattice_Sage.qmd": {
+    "WRness_of_IdealLattice_Sage.html": "89a266e0"
+  },
+  "posts/life/index.qmd": {
+    "index.html": "d9d59952"
+  },
+  "posts/life/second.qmd": {
+    "second.html": "17b3d3fa"
   },
   "research.qmd": {
-    "research.html": "4a3ea6b1"
-  },
-  "syllabus/2025/MGF1130.qmd": {
-    "MGF1130.html": "a3319e75"
-  },
-  "syllabus/2023/AlgorithmicNT.qmd": {
-    "AlgorithmicNT.html": "30f59048"
+    "research.html": "3ec2c7c5"
   },
   "syllabus/2024/AlgorithmicNT.qmd": {
-    "AlgorithmicNT.html": "05175f5f"
+    "AlgorithmicNT.html": "236b4f31"
+  },
+  "syllabus/2025/MGF1130.qmd": {
+    "MGF1130.html": "3dab4d2e"
+  },
+  "syllabus/2026/MAC2233.qmd": {
+    "MAC2233.html": "80ed517e"
+  },
+  "teaching.qmd": {
+    "teaching.html": "7b02f20c"
+  },
+  "useful_links.qmd": {
+    "useful_links.html": "f091945a"
   }
 }

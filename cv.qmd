@@ -2,7 +2,7 @@
 title: "Curriculum Vitae"
 ---
 :::{.text-center}
-[View CV](files/CV_NamLe.pdf){.btn .btn-info target="_blank" style="margin-bottom: 0.5em;"}  
+[View CV](files/CV_NamLe.pdf){.btn .btn-outline-danger target="_blank" style="margin-bottom: 0.5em;"}  
 <span style="color:gray; font-size: 90%;">(updated Oct 1, 2025)</span>
 :::
 

@@ -12,16 +12,30 @@ title: "Academic Activities"
 - **[Preliminary Arizona Winter School 2025: Mathematical cryptography and algorithms in number theory](https://swc-math.github.io/aws/2026/2026PAWS.html){target="_blank"}**  
   Online, September 22nd — November 21st, 2025
 
-- **[Graduate Workshop on Linear Algebra over Finite Fields & Applications](https://icerm.brown.edu/program/topical_workshop/tw-25-laffa){target="_blank"}**  
+- **[Graduate Workshop on Linear Algebra over Finite Fields & Applications](https://icerm.brown.edu/program/topical_workshop/tw-25-laffa){target="_blank"}**   
   ICERM, Brown University, USA, August 18–29, 2025   
-  [All Participants](images/laffa.jpg){.photo-link target="_blank"} 
+  [All Participants](images/laffa.jpg){.btn-pdf target="_blank"} 
 
 - **[Rethinking Number Theory 6 (RNT 6) Workshop](https://sites.google.com/view/rethinkingnumbertheory/home?authuser=0){target="_blank"}** 
   - Online, June 16–27, 2025.
-  - Group project: [The exceptional set in Cassels's theorem on smallcyclotomic integers 🏰](https://sites.google.com/view/rethinkingnumbertheory/projects?authuser=0#h.kgmqw9mgk2ed){.caslte-link target="_blank"}.
-  - Project Leader: Prof. [Kiran Kedlaya](https://kskedlaya.org/){.people-link target="_blank"}.  
-  [All Participants](images/RNT6.png){.photo-link target="_blank"} |  [Team Photo](images/Team3.png){.photo-link target="_blank"}
-
+  - Group project: [The exceptional set in Cassels's theorem on smallcyclotomic integers 🏰](https://sites.google.com/view/rnt-6/projects#h.kgmqw9mgk2ed){.caslte-link target="_blank"}.
+  - **Team:** Prof. [Kiran S. Kedlaya](https://kskedlaya.org/){.people-link target="_blank"} (Leader) — 
+  <details style="display:inline; margin-left:4px;">
+    <summary style="display:inline; cursor:pointer; color:#1d6fa5; text-decoration:none;">
+      Members
+    </summary>
+    <span style="margin-left:6px;">
+      [Jitendra Bajpai](https://user.math.uni-kiel.de/~jitendra/){.people-link target="_blank"},
+      [Srijan Das](https://sites.google.com/view/srijans-homepage/home){.people-link target="_blank"},
+      Nam H. Le,
+      [Meghan Lee](https://meghanhlee.github.io/){.people-link target="_blank"},
+      [Antoine Leudière](https://cspages.ucalgary.ca/~antoine.leudiere1/){.people-link target="_blank"},
+      and
+      [Jorge Mello](https://www.jorgemello.org/){.people-link target="_blank"}
+    </span>
+  </details>   
+  [All Participants](images/RNT6.png){.btn-pdf target="_blank"}   [Team Photo](images/Team3.png){.btn-pdf target="_blank"}
+  
 
 - **[A CIMPA School on Applied Number Theory](http://www.rnta.eu/HCMC2024/index.html){target="_blank"}**  
   Ho Chi Minh City University of Education, Vietnam, June 3–14, 2024. [Certificate](files/Certificate_cimpa2024.pdf){.btn-pdf target="_blank"} 
@@ -32,8 +46,8 @@ title: "Academic Activities"
 - **[CIMPA Research School on Group Actions in Arithmetic and Geometry](http://www.rnta.eu/Yogyakarta2020/){target="_blank"}**  
   Gadjah Mada University, Indonesia, February 17–28, 2020. [Certificate](files/Certifies_cimpa2020.pdf){.btn-pdf target="_blank"} 
 
-- **Workshop on Commutative Algebra**  
-  Ton Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017
+<!-- - **Workshop on Commutative Algebra**  
+  Ton Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017 -->
 
 
 <!-- ### Contributed Talks -->
