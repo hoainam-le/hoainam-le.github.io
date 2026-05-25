@@ -17,6 +17,19 @@ a.people-link {
   color: green;
 }
 
+.collaborator-link {
+  color: #5b658a;
+  text-decoration: none; /* Bỏ gạch chân mặc định cho sạch */
+  border-bottom: 1px solid transparent; /* Chuẩn bị cho hiệu ứng gạch chân */
+  transition: all 0.2s ease; /* Giúp đổi màu mượt mà hơn */
+}
+
+/* Khi di chuột vào tên collaborator */
+.collaborator-link:hover {
+  color: #0056b3; /* Chuyển sang màu xanh để báo hiệu đây là link */
+  border-bottom: 1px solid #0056b3; /* Xuất hiện gạch chân mảnh */
+}
+
 a.caslte-link {  
   color: #5c7b5c;
 }

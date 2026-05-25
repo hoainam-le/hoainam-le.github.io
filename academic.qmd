@@ -50,9 +50,8 @@ title: "Academic Activities"
   Ton Duc Thang University, Ho Chi Minh City, Vietnam, September 5–8, 2017 -->
 
 
-<!-- ### Contributed Talks -->
-<!-- - ... -->
 
 ## Talks
 
-- _To be updated..._
+- March 2026: **The Algorithms of Shor**, two-part presentation       
+  [Quantum Algorithms Seminar](https://researchseminars.org/seminar/FAUcryptotopical){.collaborator-link target="_blank"}, Department of Mathematics and Statistics, Florida Atlantic University.

@@ -29,12 +29,12 @@ website:
         href: teaching.qmd
       - text: "Academic Activities"
         href: academic.qmd
-      - text: "CV"
-        href: cv.qmd
       - text: "More"
         menu:
-          - text: "Honors & Awards"
-            href: honors.qmd
+          # - text: "Honors & Awards"
+          #   href: honors.qmd
+          - text: "CV"
+            href: cv.qmd
           - text: "Useful Links"
             href: useful_links.qmd
       # - text: "Blog"
