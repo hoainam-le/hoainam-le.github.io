@@ -77,35 +77,6 @@ gtag('js', new Date());
 gtag('config', 'G-BHPEXB34GQ', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -175,7 +146,6 @@ window.Quarto = {
    
   <ul>
   <li><a href="#publications-and-preprints" id="toc-publications-and-preprints" class="nav-link active" data-scroll-target="#publications-and-preprints">Publications and Preprints</a></li>
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
   </ul>
 </nav>
     </div>
@@ -215,23 +185,25 @@ window.Quarto = {
 <a href="https://arxiv.org/abs/2210.15049" class="btn-pdf" target="_blank">arXiv</a> <a href="https://www.worldscientific.com/doi/abs/10.1142/S021949882250133X" class="btn-pdf" target="_blank">Journal</a></p></li>
 </ol>
 <hr>
-</section>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<ul>
-<li><p><strong>Well-Rounded ideal lattices of biquadratic and pure cubic fields</strong><br>
-<span style="color:gray">July 2025 – at present</span> with Dat T. Tran, Morgan Smith, and Ha T. N. Tran</p></li>
-<li><p><strong>The exceptional set in Cassels’s theorem on smallcyclotomic integers</strong><br>
-<span style="color:gray">June 2025 – October 2025</span> with Jitendra Bajpai, Srijan Das, Meghan Lee, Antoine Leudière, and Jorge Mello; under the supervision of Prof.&nbsp;Kiran S. Kedlaya.</p></li>
-<li><p><strong>Well-rounded Twists of Lattices in <span class="math inline">\(\mathbb{R}^3\)</span></strong><br>
-<span style="color:gray">July 2023 – June 2025</span> with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.</p></li>
-<li><p><strong>Well-rounded ideals of cubic and quartic fields</strong><br>
-<span style="color:gray">June 2021 – April 2023</span> with Dat T. Tran and Ha T. N. Tran.</p></li>
-<li><p><strong>On norm Euclidean tri-quadratic fields</strong><br>
-<span style="color:gray">May 2020 – February 2021</span> with Amy Feaver, Dat T. Tran, and Ha T. N. Tran.</p></li>
-<li><p><strong>Well-rounded twists of quadratic fields</strong><br>
-<span style="color:gray">January 2020 – June 2020</span> with Dat T. Tran and Ha T. N. Tran.</p></li>
-</ul>
+<!-- ## Projects
+
+- **Well-Rounded ideal lattices of biquadratic and pure cubic fields**   
+  <span style="color:gray">July 2025 – at present</span> with Dat T. Tran, Morgan Smith, and Ha T. N. Tran
+
+- **The exceptional set in Cassels’s theorem on smallcyclotomic integers**   
+  <span style="color:gray">June 2025 – October 2025</span> with Jitendra Bajpai, Srijan Das, Meghan Lee, Antoine Leudière, and Jorge Mello; under the supervision of Prof. Kiran S. Kedlaya.
+
+- **Well-rounded Twists of Lattices in $\mathbb{R}^3$**  
+  <span style="color:gray">July 2023 – June 2025</span> with Dave Karpuk, Dat T. Tran, and Ha T. N. Tran.
+
+- **Well-rounded ideals of cubic and quartic fields**  
+  <span style="color:gray">June 2021 – April 2023</span> with Dat T. Tran and Ha T. N. Tran.
+
+- **On norm Euclidean tri-quadratic fields**  
+  <span style="color:gray">May 2020 – February 2021</span> with Amy Feaver, Dat T. Tran, and Ha T. N. Tran.
+
+- **Well-rounded twists of quadratic fields**  
+  <span style="color:gray">January 2020 – June 2020</span> with Dat T. Tran and Ha T. N. Tran. -->
 
 
 </section>
