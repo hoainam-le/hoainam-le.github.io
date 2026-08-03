@@ -133,6 +133,9 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-BHPEXB34GQ', { 'anonymize_ip': true});
 </script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -351,7 +354,7 @@ L = \left\{\sum_{i=1}^m a_ie_i\Bigg| a_i\in \mathbb{Z} \right\}
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> y<span class="op">**</span>Integer(<span class="dv">2</span>) <span class="op">+</span> y <span class="op">+</span> Integer(<span class="dv">1</span>)</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> K.extension(f, names<span class="op">=</span>(<span class="st">'a'</span>,))<span class="op">;</span> (a,) <span class="op">=</span> L._first_ngens(<span class="dv">1</span>)<span class="op">;</span> L</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>KL <span class="op">=</span> NumberField([x<span class="op">**</span>Integer(<span class="dv">4</span>) <span class="op">-</span> Integer(<span class="dv">420</span>)<span class="op">*</span>x<span class="op">**</span>Integer(<span class="dv">2</span>) <span class="op">+</span> Integer(<span class="dv">40000</span>), x<span class="op">**</span>Integer(<span class="dv">2</span>) <span class="op">+</span> x <span class="op">+</span> Integer(<span class="dv">1</span>)], names<span class="op">=</span>(<span class="st">'b'</span>,))<span class="op">;</span> (b,) <span class="op">=</span> KL._first_ngens(<span class="dv">1</span>)<span class="op">;</span> KL</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="2496d7c9" class="cell" data-execution_count="1">
+<div id="1cf320f9" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {<span class="st">'a'</span>: np.arange(<span class="dv">50</span>),</span>
@@ -367,8 +370,257 @@ L = \left\{\sum_{i=1}^m a_ie_i\Bigg| a_i\in \mathbb{Z} \right\}
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="WRness_of_IdealLattice_Sage_files/figure-html/cell-2-output-1.png" width="585" height="431" class="figure-img"></p>
+<p><img src="WRness_of_IdealLattice_Sage_files/figure-html/cell-2-output-1.png" width="585" height="429" class="figure-img"></p>
 </figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Input: number field K and ideal I] --&gt; B[Compute embeddings]
+    B --&gt; C[Build lattice basis from I]
+    C --&gt; D[Compute shortest vectors]
+    D --&gt; E{Do shortest vectors span full rank?}
+
+    E --&gt;|Yes| F[The ideal lattice is well-rounded]
+    E --&gt;|No| G[Not well-rounded]
+
+    D --&gt; H[Plot shortest vectors]
+    H --&gt; I[Use figure in blog]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    subgraph Input
+        A[Ideal I]
+        B[Field K]
+    end
+
+    subgraph Computation
+        C[Minkowski embedding]
+        D[Lattice basis]
+        E[Shortest vectors]
+    end
+
+    subgraph Decision
+        F{Full-rank span?}
+        G[Well-rounded]
+        H[Not well-rounded]
+    end
+
+    A --&gt; C
+    B --&gt; C
+    C --&gt; D
+    D --&gt; E
+    E --&gt; F
+    F --&gt;|Yes| G
+    F --&gt;|No| H
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="480" viewbox="0.00 0.00 966.21 98.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 94)">
+<title>WRness</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-94 962.21,-94 962.21,4 -4,4"></polygon>
+<!-- I -->
+<g id="node1" class="node">
+<title>I</title>
+<path fill="none" stroke="black" d="M67.32,-90C67.32,-90 37.32,-90 37.32,-90 31.32,-90 25.32,-84 25.32,-78 25.32,-78 25.32,-66 25.32,-66 25.32,-60 31.32,-54 37.32,-54 37.32,-54 67.32,-54 67.32,-54 73.32,-54 79.32,-60 79.32,-66 79.32,-66 79.32,-78 79.32,-78 79.32,-84 73.32,-90 67.32,-90"></path>
+<text text-anchor="middle" x="52.32" y="-67.8" font-family="Times,serif" font-size="14.00">Ideal I</text>
+</g>
+<!-- Embed -->
+<g id="node3" class="node">
+<title>Embed</title>
+<path fill="none" stroke="black" d="M275.38,-63C275.38,-63 153.39,-63 153.39,-63 147.39,-63 141.39,-57 141.39,-51 141.39,-51 141.39,-39 141.39,-39 141.39,-33 147.39,-27 153.39,-27 153.39,-27 275.38,-27 275.38,-27 281.38,-27 287.38,-33 287.38,-39 287.38,-39 287.38,-51 287.38,-51 287.38,-57 281.38,-63 275.38,-63"></path>
+<text text-anchor="middle" x="214.39" y="-40.8" font-family="Times,serif" font-size="14.00">Minkowski embedding</text>
+</g>
+<!-- I&#45;&gt;Embed -->
+<g id="edge1" class="edge">
+<title>I-&gt;Embed</title>
+<path fill="none" stroke="black" d="M79.39,-67.6C93.8,-65.17 112.58,-62 131.49,-58.81"></path>
+<polygon fill="black" stroke="black" points="132.1,-62.26 141.38,-57.15 130.93,-55.36 132.1,-62.26"></polygon>
+</g>
+<!-- K -->
+<g id="node2" class="node">
+<title>K</title>
+<path fill="none" stroke="black" d="M92.46,-36C92.46,-36 12.18,-36 12.18,-36 6.18,-36 0.18,-30 0.18,-24 0.18,-24 0.18,-12 0.18,-12 0.18,-6 6.18,0 12.18,0 12.18,0 92.46,0 92.46,0 98.46,0 104.46,-6 104.46,-12 104.46,-12 104.46,-24 104.46,-24 104.46,-30 98.46,-36 92.46,-36"></path>
+<text text-anchor="middle" x="52.32" y="-13.8" font-family="Times,serif" font-size="14.00">Number field K</text>
+</g>
+<!-- K&#45;&gt;Embed -->
+<g id="edge2" class="edge">
+<title>K-&gt;Embed</title>
+<path fill="none" stroke="black" d="M104.85,-26.69C113.44,-28.14 122.53,-29.67 131.66,-31.21"></path>
+<polygon fill="black" stroke="black" points="131.11,-34.67 141.55,-32.88 132.27,-27.77 131.11,-34.67"></polygon>
+</g>
+<!-- Basis -->
+<g id="node4" class="node">
+<title>Basis</title>
+<path fill="none" stroke="black" d="M398.68,-63C398.68,-63 335.95,-63 335.95,-63 329.95,-63 323.95,-57 323.95,-51 323.95,-51 323.95,-39 323.95,-39 323.95,-33 329.95,-27 335.95,-27 335.95,-27 398.68,-27 398.68,-27 404.68,-27 410.68,-33 410.68,-39 410.68,-39 410.68,-51 410.68,-51 410.68,-57 404.68,-63 398.68,-63"></path>
+<text text-anchor="middle" x="367.32" y="-40.8" font-family="Times,serif" font-size="14.00">Lattice basis</text>
+</g>
+<!-- Embed&#45;&gt;Basis -->
+<g id="edge3" class="edge">
+<title>Embed-&gt;Basis</title>
+<path fill="none" stroke="black" d="M287.32,-45C296.28,-45 305.3,-45 313.89,-45"></path>
+<polygon fill="black" stroke="black" points="314.11,-48.5 324.11,-45 314.11,-41.5 314.11,-48.5"></polygon>
+</g>
+<!-- SV -->
+<g id="node5" class="node">
+<title>SV</title>
+<path fill="none" stroke="black" d="M541.22,-63C541.22,-63 459.59,-63 459.59,-63 453.59,-63 447.59,-57 447.59,-51 447.59,-51 447.59,-39 447.59,-39 447.59,-33 453.59,-27 459.59,-27 459.59,-27 541.22,-27 541.22,-27 547.22,-27 553.22,-33 553.22,-39 553.22,-39 553.22,-51 553.22,-51 553.22,-57 547.22,-63 541.22,-63"></path>
+<text text-anchor="middle" x="500.41" y="-40.8" font-family="Times,serif" font-size="14.00">Shortest vectors</text>
+</g>
+<!-- Basis&#45;&gt;SV -->
+<g id="edge4" class="edge">
+<title>Basis-&gt;SV</title>
+<path fill="none" stroke="black" d="M410.52,-45C419,-45 428.08,-45 437.08,-45"></path>
+<polygon fill="black" stroke="black" points="437.18,-48.5 447.18,-45 437.18,-41.5 437.18,-48.5"></polygon>
+</g>
+<!-- Check -->
+<g id="node6" class="node">
+<title>Check</title>
+<path fill="none" stroke="black" d="M677.55,-60.86C677.55,-60.86 602.08,-47.14 602.08,-47.14 596.17,-46.07 596.17,-43.93 602.08,-42.86 602.08,-42.86 677.55,-29.14 677.55,-29.14 683.45,-28.07 695.26,-28.07 701.16,-29.14 701.16,-29.14 776.64,-42.86 776.64,-42.86 782.54,-43.93 782.54,-46.07 776.64,-47.14 776.64,-47.14 701.16,-60.86 701.16,-60.86 695.26,-61.93 683.45,-61.93 677.55,-60.86"></path>
+<text text-anchor="middle" x="689.36" y="-40.8" font-family="Times,serif" font-size="14.00">Span full rank?</text>
+</g>
+<!-- SV&#45;&gt;Check -->
+<g id="edge5" class="edge">
+<title>SV-&gt;Check</title>
+<path fill="none" stroke="black" d="M553.48,-45C561.89,-45 570.86,-45 580.03,-45"></path>
+<polygon fill="black" stroke="black" points="580.04,-48.5 590.04,-45 580.04,-41.5 580.04,-48.5"></polygon>
+</g>
+<!-- Yes -->
+<g id="node7" class="node">
+<title>Yes</title>
+<path fill="none" stroke="black" d="M935.38,-90C935.38,-90 865.89,-90 865.89,-90 859.89,-90 853.89,-84 853.89,-78 853.89,-78 853.89,-66 853.89,-66 853.89,-60 859.89,-54 865.89,-54 865.89,-54 935.38,-54 935.38,-54 941.38,-54 947.38,-60 947.38,-66 947.38,-66 947.38,-78 947.38,-78 947.38,-84 941.38,-90 935.38,-90"></path>
+<text text-anchor="middle" x="900.63" y="-67.8" font-family="Times,serif" font-size="14.00">Well-rounded</text>
+</g>
+<!-- Check&#45;&gt;Yes -->
+<g id="edge6" class="edge">
+<title>Check-&gt;Yes</title>
+<path fill="none" stroke="black" d="M747.82,-52.41C777.59,-56.25 813.8,-60.93 843.38,-64.74"></path>
+<polygon fill="black" stroke="black" points="843.19,-68.25 853.55,-66.05 844.08,-61.3 843.19,-68.25"></polygon>
+<text text-anchor="middle" x="815.73" y="-65.2" font-family="Times,serif" font-size="14.00">yes</text>
+</g>
+<!-- No -->
+<g id="node8" class="node">
+<title>No</title>
+<path fill="none" stroke="black" d="M946.28,-36C946.28,-36 854.99,-36 854.99,-36 848.99,-36 842.99,-30 842.99,-24 842.99,-24 842.99,-12 842.99,-12 842.99,-6 848.99,0 854.99,0 854.99,0 946.28,0 946.28,0 952.28,0 958.28,-6 958.28,-12 958.28,-12 958.28,-24 958.28,-24 958.28,-30 952.28,-36 946.28,-36"></path>
+<text text-anchor="middle" x="900.63" y="-13.8" font-family="Times,serif" font-size="14.00">Not well-rounded</text>
+</g>
+<!-- Check&#45;&gt;No -->
+<g id="edge7" class="edge">
+<title>Check-&gt;No</title>
+<path fill="none" stroke="black" d="M747.82,-37.59C774.11,-34.19 805.42,-30.16 832.76,-26.63"></path>
+<polygon fill="black" stroke="black" points="833.55,-30.05 843.02,-25.3 832.66,-23.11 833.55,-30.05"></polygon>
+<text text-anchor="middle" x="815.73" y="-34.2" font-family="Times,serif" font-size="14.00">no</text>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">sequenceDiagram
+    participant P as Prover
+    participant V as Verifier
+
+    Note over P: Knows witness w
+    Note over V: Knows public statement x
+
+    P-&gt;&gt;V: commitment a
+    V-&gt;&gt;P: random challenge c
+    P-&gt;&gt;V: response z
+
+    V-&gt;&gt;V: Check Verify(x, a, c, z) = 1
+
+    alt Accept
+        V--&gt;&gt;P: accept
+    else Reject
+        V--&gt;&gt;P: reject
+    end
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">sequenceDiagram
+    participant P as Prover P(x,w)
+    participant V as Verifier V(x)
+
+    Note over P,V: Public input: statement x
+    Note over P: Private input: witness w
+
+    P-&gt;&gt;P: Sample randomness r
+    P-&gt;&gt;V: a = Commit(x,w,r)
+
+    V-&gt;&gt;V: Sample challenge c
+    V-&gt;&gt;P: c
+
+    P-&gt;&gt;P: Compute response z
+    P-&gt;&gt;V: z
+
+    V-&gt;&gt;V: Accept iff Verify(x,a,c,z)=1
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">sequenceDiagram
+    participant P as Prover
+    participant H as Random Oracle / Hash
+    participant V as Verifier
+
+    P-&gt;&gt;P: Compute commitment a
+    P-&gt;&gt;H: Query H(x,a)
+    H--&gt;&gt;P: challenge c
+    P-&gt;&gt;P: Compute response z
+
+    P-&gt;&gt;V: proof pi = (a,z)
+
+    V-&gt;&gt;H: Query H(x,a)
+    H--&gt;&gt;V: challenge c
+    V-&gt;&gt;V: Check Verify(x,a,c,z)=1
+</pre>
+</div>
+<p></p></figure><p></p>
 </div>
 </div>
 </div>

@@ -89,3 +89,41 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
+
+
+.photo-hint {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+  opacity: 1 !important;
+}
+
+.lb-data .lb-number {
+  display: block !important;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.lb-data .lb-caption {
+  font-size: 0.95rem;
+}
+
+
+
+.course-table table {
+  width: 100%;
+}
+
+.course-table th,
+.course-table td {
+  vertical-align: top;
+}
+
+.course-table th:first-child,
+.course-table td:first-child {
+  white-space: nowrap;
+}
