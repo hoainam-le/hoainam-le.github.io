@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Academic Writings – Nam Hoai Le</title>
+<title>Notes – Nam Hoai Le</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-BHPEXB34GQ"></script>
 
 <script type="text/javascript">
@@ -108,37 +77,8 @@ gtag('js', new Date());
 gtag('config', 'G-BHPEXB34GQ', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -148,7 +88,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Nam Hoai Le</span>
     </a>
   </div>
@@ -159,19 +99,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../academic.html"> 
+    <a class="nav-link" href="../academic.html"> 
 <span class="menu-text">Academic Activities</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -180,11 +120,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-more">    
         <li>
-    <a class="dropdown-item" href="../../cv.html">
+    <a class="dropdown-item" href="../cv.html">
  <span class="dropdown-text">CV</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../useful_links.html">
+    <a class="dropdown-item" href="../useful_links.html">
  <span class="dropdown-text">Useful Links</span></a>
   </li>  
     </ul>
@@ -201,14 +141,22 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QWxnZWJyYWljJTIwTnVtYmVyJTIwVGhlb3J5">Algebraic Number Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29tcHV0YXRpb25hbCUyME51bWJlciUyMFRoZW9yeQ==">Computational Number Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGVyc29uYWw=">Personal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lattices" id="toc-lattices" class="nav-link active" data-scroll-target="#lattices">Lattices</a></li>
+  <li><a href="#cryptography" id="toc-cryptography" class="nav-link" data-scroll-target="#cryptography">Cryptography</a></li>
+  <li><a href="#number-theory" id="toc-number-theory" class="nav-link" data-scroll-target="#number-theory">Number Theory</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Academic Writings</h1>
+<h1 class="title">Notes</h1>
 </div>
 
 
@@ -225,91 +173,34 @@ window.Quarto = {
 </header>
 
 
-<p>Welcome to the <strong>Academic</strong> section of my blog.<br>
-Here I share notes, reflections, and insights related to mathematics, research, academic writing, and study strategies.</p>
-<hr>
+<p>My notes on mathematics, cryptography, and related topics.</p>
+<section id="lattices" class="level2">
+<h2 class="anchored" data-anchor-id="lattices">Lattices</h2>
+<ul>
+<li><p><a href="pdf/discrete-lattices.pdf">Discrete Subgroups and Lattices</a><br>
+….</p></li>
+<li><p><a href="pdf/minkowski-embedding.pdf">Minkowski Embedding</a><br>
+Notes on embeddings of number fields and their associated lattices.</p></li>
+</ul>
+</section>
+<section id="cryptography" class="level2">
+<h2 class="anchored" data-anchor-id="cryptography">Cryptography</h2>
+<ul>
+<li><a href="pdf/ntru.pdf" target="_blank">NTRU Cryptosystem</a> Basic notes on the algebraic structure and lattice interpretation of NTRU.</li>
+</ul>
+</section>
+<section id="number-theory" class="level2">
+<h2 class="anchored" data-anchor-id="number-theory">Number Theory</h2>
+<ul>
+<li><a href="../notes/posts/WRness_of_IdealLattice_Sage.html" target="_blank">Ideal Lattices of Number Fields</a><br>
+Some basic facts and computational examples.</li>
+<li><a href="pdf/cyclotomic-fields.pdf" target="_blank">Cyclotomic Fields</a> …</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UXVhcnRvJTJDUGVyc29uYWw=" data-listing-date-sort="1748145600000" data-listing-file-modified-sort="1747579993594" data-listing-date-modified-sort="1747281600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/academic/frou.html" class="no-external">My a Post</a>
-</h3>
-<div class="delink listing-description"><a href="../../posts/academic/frou.html" class="no-external">
-<p>zzzz</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../posts/academic/frou.html" class="no-external">
-<div class="listing-date">
-May 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="UXVhcnRvJTJDUGVyc29uYWw=" data-listing-date-sort="1747713600000" data-listing-file-modified-sort="1747580024989" data-listing-date-modified-sort="1747281600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/academic/third.html" class="no-external">My third Post</a>
-</h3>
-<div class="delink listing-description"><a href="../../posts/academic/third.html" class="no-external">
-<p>hmm</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../posts/academic/third.html" class="no-external">
-<div class="listing-date">
-May 20, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="QWxnZWJyYWljJTIwTnVtYmVyJTIwVGhlb3J5JTJDQ29tcHV0YXRpb25hbCUyME51bWJlciUyMFRoZW9yeQ==" data-listing-date-sort="1747281600000" data-listing-file-modified-sort="1780413059368" data-listing-date-modified-sort="1747713600000" data-listing-reading-time-sort="8" data-listing-word-count-sort="1448">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/academic/WRness_of_IdealLattice_Sage.html" class="no-external">Well-Roundedness of Ideal Lattices Using SageMath</a>
-</h3>
-<div class="delink listing-description"><a href="../../posts/academic/WRness_of_IdealLattice_Sage.html" class="no-external">
-<p>Exploring methods to test well-roundedness of ideal lattices with SageMath and Pari/GP.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../posts/academic/WRness_of_IdealLattice_Sage.html" class="no-external">
-<div class="listing-date">
-May 15, 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
 
@@ -859,20 +750,7 @@ May 15, 2025
       &nbsp;
     </div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/hoainam-le">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://www.facebook.com/namhltv/">
-      <i class="bi bi-facebook" role="img">
-</i> 
-    </a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>

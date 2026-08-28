@@ -1,16 +1,9 @@
 [
   {
-    "listing": "/posts/academic/index.html",
+    "listing": "/life/index.html",
     "items": [
-      "/posts/academic/frou.html",
-      "/posts/academic/third.html",
-      "/posts/academic/WRness_of_IdealLattice_Sage.html"
-    ]
-  },
-  {
-    "listing": "/posts/life/index.html",
-    "items": [
-      "/posts/life/second.html"
+      "/life/second.html",
+      "/life/third.html"
     ]
   }
 ]
