@@ -64,6 +64,16 @@ main a:hover {
 .news-table td {
   padding: 0.5em 0;
 }
+.news-table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.news-table th:first-child,
+.news-table td:first-child {
+  width: 120px;
+  white-space: nowrap;
+}
 
 /* Page title centered, content headings left */
 .quarto-title-block .title {
