@@ -28,23 +28,32 @@ main a:hover {
 }
 
 
-/* PDF button */
+/* Publication links */
 .btn-pdf {
-  display: inline-block;
-  padding: 4px 10px;
-  margin: 5px 6px 5px 0;
-  border: 1px solid #b33a3a;
-  border-radius: 4px;
+  display: inline;
+  padding: 0.08em 0.28em;
+  margin: 0 0.08em;
+
+  border: none;
+  border-radius: 3px;
+
   color: #b33a3a;
   background: transparent;
+
   text-decoration: none;
-  font-size: 0.85em;
+  font-size: 0.9em;
   font-weight: 500;
+
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease;
 }
 
 .btn-pdf:hover {
-  background: #b33a3a;
-  color: white;
+  color: #8f2525;
+  background-color: rgba(179, 58, 58, 0.10);
+
+  border-bottom: none;
 }
 
 /* News table */
