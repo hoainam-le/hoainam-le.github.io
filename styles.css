@@ -31,11 +31,12 @@ main a:hover {
 /* Publication links */
 .btn-pdf {
   display: inline;
-  padding: 0.08em 0.28em;
+
+  padding: 0.14em 0.42em;
   margin: 0 0.08em;
 
   border: none;
-  border-radius: 3px;
+  border-radius: 4px;
 
   color: #b33a3a;
   background: transparent;
@@ -52,7 +53,6 @@ main a:hover {
 .btn-pdf:hover {
   color: #8f2525;
   background-color: rgba(179, 58, 58, 0.10);
-
   border-bottom: none;
 }
 
